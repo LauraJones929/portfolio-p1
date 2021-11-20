@@ -36,3 +36,21 @@ In order to create an informative platform, these are the key features that the 
 - **Frequent Visitor Goals**
   - As a frequent visitor, I want to check for any newly added upcoming public shows that I can attend.
   - As a frequent visitor, I want to see if there are any new packages available for cooperate events.
+
+### Design
+- **Colour Scheme**
+  
+  - The main colour scheme is neutral and light, in order to highlight any dark text. As photographic images are generously used throughout the site, neutral colours will not take away any attention from the images that are put in place for promotional purposes.
+  
+- **Typography**
+
+  - Fonts are imported into the CSS file via Google Fonts.
+  - To keep the website looking clean and neutral, a selection of 3 fonts is used throughout the website, 2 of which have a very similar look and feel.
+  - For the main heading which is the artists name, I have chosen to use the font family of 'Parisienne', with a fallback font of 'Cursive', in the event of the preferred font failing to import. This font will hopefully create a positive user experience when first entering the site as it exudes a professional yet warm mood.
+  - For sub-headings which includes the navigation menu, along with sub-titles across the page/s, I have chosen to use the font family of 'Raleway' as it stands clean and clear, making a statement but not enough to draw attention away from more important features on the page. In the event of this font failing, I have set the fallback font to 'Sans-serif'.
+  - For general text I have chosen the font family of 'Inter'. Again this is a clean and clear font that is easy to read, and maintains the neutral tone flowing throughout the site. Fallback font set to 'Sans-serif'.
+
+- **Imagery**
+
+  - Photographic imagery is used throughout the site. Gallery style images as well as background images across the page to give the user a well rounded look and feel of the clients' aesthetic and style. Images are used to capture the essense of the artist and the height of the entertainment that she brings.
+  Each image is provided by the client and is taken from her social media accounts. These images are credited and sourced appropriately in the credit section of the README file and in comments above the relevant code.

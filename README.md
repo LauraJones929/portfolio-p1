@@ -54,3 +54,9 @@ In order to create an informative platform, these are the key features that the 
 
   - Photographic imagery is used throughout the site. Gallery style images as well as background images across the page to give the user a well rounded look and feel of the clients' aesthetic and style. Images are used to capture the essense of the artist and the height of the entertainment that she brings.
   Each image is provided by the client and is taken from her social media accounts. These images are credited and sourced appropriately in the credit section of the README file and in comments above the relevant code.
+
+### Wireframes
+This web application has been designed and created with 'mobile-first' approach.
+
+- Home page
+![Homepage wireframe](assets/imgs/homepage.png)

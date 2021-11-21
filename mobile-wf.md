@@ -6,6 +6,7 @@
 
 ## About
 ![About wireframe](assets/imgs/about.png)
+*The main heading and social links will not be displayed when in landscape on all pages except the home page. This is to create more space for informative content.*
 
 ## Music
 ![Music wireframe](assets/imgs/music.png)

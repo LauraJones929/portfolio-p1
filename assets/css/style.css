@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Parisienne&family=Raleway:wght@200&display=swap');
+
+/* --------------------------------- Header */
+
+header {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.title p {
+    color: #fafafa;
+}
+
+.upper-title {
+    font-family: "Parisienne", cursive;
+    font-size: 50px;
+    width: 100%;
+}
+
+.lower-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+    width: 100%;
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+}
+
+header a {
+    text-decoration: none;
+}

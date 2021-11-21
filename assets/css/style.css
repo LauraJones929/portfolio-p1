@@ -34,7 +34,6 @@ li a:hover {
     border-bottom-style: solid;
     border-bottom-width: thin;
     border-bottom-color: #2f2822;
-    padding-right: 10px;
 }
 
 /*---------------------------------- Sections */
@@ -50,7 +49,7 @@ li a:hover {
 
 body {
     font-family: "Inter", sans-serif;
-    color: #fafafa;
+    color: #2f2822;
     z-index: 100;
 }
 .main-image {
@@ -61,6 +60,27 @@ body {
     -moz-background-size: cover;
     -o-background-size:cover;
 }
+
+.about-heading {
+    padding-top: 90px;
+}
+
+.about-paragraph {
+    margin: 0 30px 30px 30px;
+    text-align: center;
+}
+
+.about-image {
+    background: url("../imgs/background/jhb.jpeg") no-repeat center center fixed;
+    height: 80vh;
+    width: 100vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+}
+
+
+
 /*---------------------------------- Spacing */
 
 .row {
@@ -74,3 +94,10 @@ body {
 .col-12 {
     padding-left: 0;
 }
+
+hr {
+    display: block;
+    width: 30%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }

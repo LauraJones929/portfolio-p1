@@ -58,5 +58,4 @@ In order to create an informative platform, these are the key features that the 
 ### Wireframes
 This web application has been designed and created with 'mobile-first' approach.
 
-- Home page
-![Homepage wireframe](assets/imgs/homepage.png)
+- [Mobile Wireframe](webframe.md)

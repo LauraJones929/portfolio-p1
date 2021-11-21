@@ -59,3 +59,5 @@ In order to create an informative platform, these are the key features that the 
 This web application has been designed and created with 'mobile-first' approach.
 
 - [Mobile Wireframe](webframe.md)
+- [Tablet Wireframe](webframe.md)
+- [Desktop Wireframe](webframe.md)

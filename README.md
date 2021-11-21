@@ -56,8 +56,8 @@ In order to create an informative platform, these are the key features that the 
   Each image is provided by the client and is taken from her social media accounts. These images are credited and sourced appropriately in the credit section of the README file and in comments above the relevant code.
 
 ### Wireframes
-This web application has been designed and created with 'mobile-first' approach.
-
-- [Mobile Wireframe](webframe.md)
-- [Tablet Wireframe](webframe.md)
-- [Desktop Wireframe](webframe.md)
+After carrying out research online, statistics show that in the UK (where the client is mainly based) **48.3%** of the public access the internet via mobile, **46.3%** access the internet via desktop and only a very small **5.39%** of the public access the internet via a tablet.
+Therefore I have chosen to design and create this web application using the 'mobile-first' principle. 
+- [Mobile Wireframe](mobile-wf.md)
+- [Tablet Wireframe](tablet-wf.md)
+- [Desktop Wireframe](desktop-wf.md)

@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Parisienne&family=Raleway:wght@200&display=swap');
 
+/* --------------------------------- Spacing */
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
 /* --------------------------------- Header */
 
 header {
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #d7d7c1
 }
 
 .title {
@@ -13,7 +19,7 @@ header {
 }
 
 .title p {
-    color: #fafafa;
+    color: #fff;
 }
 
 .upper-title {
@@ -33,4 +39,11 @@ header {
 
 header a {
     text-decoration: none;
+}
+
+/* --------------------------------- Images */
+
+.home-image img{
+    width: 100vw;
+    height: 100%;
 }

@@ -4,6 +4,7 @@
 
 header {
     background-color: #fafafa;
+    height: 85px;
 }
 
 .title-link {
@@ -18,23 +19,36 @@ header {
     font-family: "Parisienne", cursive;
     color: #2f2822;
     padding-top: 15px;
-    padding-left: 15px;
+    padding-left: 35px;
+    position: relative;
+    display: inline-block;
+}
+
+.name-line {
+    position: absolute;
+    border-top: rgba(36, 109, 17, 0.57) 1px solid;
+    width: 90%;
+    top: 60%;
+    left: 13%;
 }
 
 #music-title {
     font-family: "Raleway", sans-serif;
     color: rgba(36, 109, 17, 0.57);
     font-size: 30px;
-    padding-left: 35px;
+    padding-left: 55px;
     bottom: 20px;
     position: relative;
 }
-
 
 li a:hover {
     border-bottom-style: solid;
     border-bottom-width: thin;
     border-bottom-color: rgba(36, 109, 17, 0.57);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #2f2822;
 }
 
 /*---------------------------------- Images */
@@ -84,7 +98,8 @@ body {
 }
 
 .about-paragraph {
-    margin: 0 30px 30px 30px;
+    margin: 0;
+    padding: 0 40px 30px 40px;
     text-align: center;
 }
 
@@ -99,6 +114,10 @@ body {
 
 .list-inline {
     text-align: center;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
 }
 
 .get-in-touch {

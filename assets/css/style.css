@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Parisienne&family=Raleway:wght@200&display=swap');
 
-/*---------------------------------- Heading */
+/*---------------------------------- Header */
 
 header {
     background-color: #fafafa;
@@ -23,35 +23,22 @@ header {
 
 #music-title {
     font-family: "Raleway", sans-serif;
-    color: #2f2822;
+    color: rgba(36, 109, 17, 0.57);
     font-size: 30px;
     padding-left: 35px;
     bottom: 20px;
     position: relative;
 }
 
+
 li a:hover {
     border-bottom-style: solid;
     border-bottom-width: thin;
-    border-bottom-color: #2f2822;
+    border-bottom-color: rgba(36, 109, 17, 0.57);
 }
 
-/*---------------------------------- Sections */
+/*---------------------------------- Images */
 
-.subtitle {
-    text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
-    text-align: center;
-    padding-bottom: 40px;
-    padding-top: 25px;
-    letter-spacing: 5px;
-}
-
-body {
-    font-family: "Inter", sans-serif;
-    color: #2f2822;
-    z-index: 100;
-}
 .main-image {
     height: 80vh;
     width: 100vw;
@@ -59,15 +46,6 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size:cover;
-}
-
-.about-heading {
-    padding-top: 90px;
-}
-
-.about-paragraph {
-    margin: 0 30px 30px 30px;
-    text-align: center;
 }
 
 .about-image {
@@ -79,6 +57,62 @@ body {
     -o-background-size:cover;
 }
 
+/*---------------------------------- Sections */
+
+.subtitle {
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    letter-spacing: 5px;
+}
+
+.green-sub {
+    color: rgba(36, 109, 17, 0.57);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #2f2822;
+    z-index: 100;
+}
+
+
+.about-heading {
+    padding-top: 90px;
+}
+
+.about-paragraph {
+    margin: 0 30px 30px 30px;
+    text-align: center;
+}
+
+
+.packages-heading {
+    padding-top: 90px;
+}
+
+.wedding-package {
+    text-align: center;
+}
+
+.list-inline {
+    text-align: center;
+}
+
+.get-in-touch {
+    text-align: center;
+}
+
+a i {
+    color:rgba(36, 109, 17, 0.57);
+    font-size: 20px;
+}
+
+a i:hover {
+    color: rgba(86, 87, 82, 0.49);
+}
 
 
 /*---------------------------------- Spacing */
@@ -98,6 +132,7 @@ body {
 hr {
     display: block;
     width: 30%;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgba(36, 109, 17, 0.57);
  }

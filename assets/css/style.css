@@ -1,5 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Parisienne&family=Raleway:wght@200&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #2f2822;
+}
+
+.subtitle {
+    padding-bottom: 30px;
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.green-sub {
+    color: rgba(36, 109, 17, 0.57);
+}
+
+/*---------------------------------- Images */
+
+.main-image {
+    height: 80vh;
+    width: 100vw;
+    background: url("../imgs/background/jess.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+}
+
+.about-image {
+    clear: both;
+    background: url("../imgs/background/jhb.jpeg") no-repeat center center fixed;
+    height: 80vh;
+    width: 100vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+}
+
 /*---------------------------------- Header */
 
 header {
@@ -9,6 +54,7 @@ header {
 
 .title-link {
     text-decoration: none;
+    float: left;
 }
 
 .title-link:hover {
@@ -35,10 +81,28 @@ header {
 #music-title {
     font-family: "Raleway", sans-serif;
     color: rgba(36, 109, 17, 0.57);
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 55px;
-    bottom: 20px;
+    bottom: 35px;
     position: relative;
+}
+
+.nav-menu {
+    float: right;
+}
+
+.nav-menu li {
+    list-style: none;
+    display: inline;
+    float: left;
+    margin-right: 5px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    padding: 5px;
 }
 
 li a:hover {
@@ -47,78 +111,96 @@ li a:hover {
     border-bottom-color: rgba(36, 109, 17, 0.57);
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: #2f2822;
+.title-link,
+.nav-menu {
+    line-height: 85px;
 }
 
-/*---------------------------------- Images */
-
-.main-image {
-    height: 80vh;
-    width: 100vw;
-    background: url("../imgs/background/jess.jpeg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size:cover;
-}
-
-.about-image {
-    background: url("../imgs/background/jhb.jpeg") no-repeat center center fixed;
-    height: 80vh;
-    width: 100vw;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size:cover;
-}
-
-/*---------------------------------- Sections */
-
-.subtitle {
-    text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
-    text-align: center;
-    padding-bottom: 30px;
-    padding-top: 25px;
-    letter-spacing: 5px;
-}
-
-.green-sub {
-    color: rgba(36, 109, 17, 0.57);
-}
-
-body {
-    font-family: "Inter", sans-serif;
-    color: #2f2822;
-    z-index: 100;
-}
-
+/*---------------------------------- About Section */
 
 .about-heading,
 .packages-heading {
     padding-top: 50px;
 }
 
-.about-paragraph {
-    margin: 0;
+.about-left {
+    margin-left: 100px;
+    margin-bottom: 80px;
+    padding: 0 20px 40px 40px;
+    float: left;
+    text-align: center;
+    width: 40%;
+    height: 200px;
+}
+
+.about-left p {
+    padding: 20px;
+    background-color: rgba(36, 109, 17, 0.05);
+    border-radius: 2px;
+}
+
+.about-right {
+    margin-right: 100px;
+    margin-bottom: 80px;
     padding: 0 20px 20px 20px;
+    float: right;
     text-align: center;
+    width: 40%;
+    height: 200px;
 }
 
-.wedding-package {
-    text-align: center;
+.about-right p {
+    padding: 20px;
+    background-color: rgba(36, 109, 17, 0.05);
+    border-radius: 2px;
 }
 
-.list-inline {
+/*---------------------------------- Packages Section */
+
+.package-one-two {
+    margin-left: 90px;
+    margin-bottom: 80px;
+    padding: 0 20px 20px 20px;
+    float: left;
     text-align: center;
+    width: 40%;
+    height: 100%;
 }
 
-.list-inline-item:not(:last-child) {
-    margin-right: 0;
+.package-three-four {
+    margin-right: 90px;
+    margin-bottom: 80px;
+    padding: 0 20px 20px 20px;
+    float: right;
+    text-align: center;
+    width: 40%;
+    height: 110%;
+}
+
+.package-one-two,
+.package-three-four {
+    padding: 20px;
+    background-color: rgba(36, 109, 17, 0.05);
+    border-radius: 2px;
+}
+
+.events-list li {
+    display: inline;
+}
+
+.events-list {
+    text-align: center;
 }
 
 .get-in-touch {
     text-align: center;
     padding-bottom: 20px;
+}
+
+.contact-icon {
+    text-align: center;
+    display: block;
+    margin-bottom: 50px;
 }
 
 a i {
@@ -130,6 +212,10 @@ a i:hover {
     color: rgba(86, 87, 82, 0.49);
 }
 
+.music {
+    height: 800px;
+}
+
 #music-sub {
     padding-top: 30px;
 }
@@ -139,14 +225,40 @@ a i:hover {
     margin-bottom: 0;
 }
 
-#video-center {
-    left: 25%;
-}
-
 iframe {
     padding: 7px 7px;
     margin: 5px 0;
     border: solid #2f2822 thin;
+}
+
+.vid-left {
+    float: left;
+    width: 30%;
+    display: inline;
+    clear: both;
+    background-color: green;
+}
+
+.vid-right {
+    float: right;
+    width: 30%;
+    display: inline;
+    clear: both;
+    background-color: purple;
+}
+
+.vid-center {
+    width: 30%;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+.v-left {
+    float: left;
+}
+
+.v-right {
+    float: right;
 }
 
 /*---------------------------------- Form */
@@ -155,51 +267,24 @@ iframe {
 
 /*---------------------------------- Spacing */
 
-.row {
-    margin-left: 0;
-}
 
-.col-4 {
-    margin-right: 0;
-}
-
-.col-12 {
-    padding-left: 0;
-}
-
-hr {
+/*hr {
+    position: relative;
+    left: 35%;
+    bottom: 30%;
     display: block;
     width: 30%;
     padding-top: 20px;
     padding-bottom: 20px;
     color: rgba(36, 109, 17, 0.57);
- }
+ }*/
 
- .col-3 {
-     padding-right: 0;
- }
-
- .navbar {
-     right: 20px;
- }
-
- 
- @media (min-width : 1224px) {
-    .third-video {
-        height: 500px;
-    }
- }
 
  @media (min-width : 576px) {
      .contact-form {
-         position: relative;
-         left: 30%;
+        text-align: center;
      }
  }
-
-.center-form {
-    text-align: center;
-}
 
 .contact-form {
     margin: 30px 0 40px 0px;
@@ -239,8 +324,17 @@ footer {
     height: 85px;
 }
 
-/*.social-link {
+.social-links {
     text-align: center;
-    color: #2f2822;
-    margin-left: 50px;
-} */
+    display: inline;
+}
+
+.social-links > li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 20px;
+    margin: 2px;
+    padding: 5%;
+}

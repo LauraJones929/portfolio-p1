@@ -24,6 +24,10 @@ body {
     color: rgba(36, 109, 17, 0.57);
 }
 
+.spacer {
+    height: 600px;
+}
+
 /*---------------------------------- Images */
 
 .main-image {
@@ -32,7 +36,7 @@ body {
     background: url("../imgs/background/jess.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size:cover;
+    -o-background-size: cover;
 }
 
 .about-image {
@@ -42,7 +46,7 @@ body {
     width: 100vw;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size:cover;
+    -o-background-size: cover;
 }
 
 /*---------------------------------- Header */
@@ -50,6 +54,9 @@ body {
 header {
     background-color: #fafafa;
     height: 85px;
+    position: fixed;
+    top: 0;
+    width: 100%
 }
 
 .title-link {
@@ -105,7 +112,7 @@ header {
     padding: 5px;
 }
 
-li a:hover {
+.nav-menu a:hover {
     border-bottom-style: solid;
     border-bottom-width: thin;
     border-bottom-color: rgba(36, 109, 17, 0.57);
@@ -118,9 +125,11 @@ li a:hover {
 
 /*---------------------------------- About Section */
 
-.about-heading,
-.packages-heading {
-    padding-top: 50px;
+#about,
+#packages,
+#music,
+#contact {
+    padding-top: 70px;
 }
 
 .about-left {
@@ -200,7 +209,7 @@ li a:hover {
 .contact-icon {
     text-align: center;
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 a i {
@@ -212,8 +221,11 @@ a i:hover {
     color: rgba(86, 87, 82, 0.49);
 }
 
-.music {
-    height: 800px;
+/*---------------------------------- Music Vids */
+
+#music {
+    height: 500px;
+    width: 100%;
 }
 
 #music-sub {
@@ -225,70 +237,25 @@ a i:hover {
     margin-bottom: 0;
 }
 
+.video-row {
+    display: flex;
+    flex-direction: row;
+    place-content: space-evenly;
+}
+
 iframe {
     padding: 7px 7px;
     margin: 5px 0;
     border: solid #2f2822 thin;
 }
 
-.vid-left {
-    float: left;
-    width: 30%;
-    display: inline;
-    clear: both;
-    background-color: green;
-}
-
-.vid-right {
-    float: right;
-    width: 30%;
-    display: inline;
-    clear: both;
-    background-color: purple;
-}
-
-.vid-center {
-    width: 30%;
-    margin: 0 auto;
-    background-color: blue;
-}
-
-.v-left {
-    float: left;
-}
-
-.v-right {
-    float: right;
-}
-
 /*---------------------------------- Form */
 
 
-
-/*---------------------------------- Spacing */
-
-
-/*hr {
-    position: relative;
-    left: 35%;
-    bottom: 30%;
-    display: block;
-    width: 30%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: rgba(36, 109, 17, 0.57);
- }*/
-
-
- @media (min-width : 576px) {
-     .contact-form {
-        text-align: center;
-     }
- }
-
 .contact-form {
-    margin: 30px 0 40px 0px;
-    left: 30%;
+    margin: 30px 0 40px 0;
+    position: absolute;
+    left: 34%;
     color: #2f2822;
     background-color: rgba(135, 164, 101, 0.5);
     max-width: 400px;
@@ -299,7 +266,7 @@ iframe {
 input[type=text],
 input[type=email],
 textarea {
-    background: #fafafa;
+    background-color: #fafafa;;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -317,24 +284,68 @@ textarea {
 .submit-button {
     background-color: #fafafa;
     border: #2f2822 solid thin;
-    border-radius: 3px;
+    border-radius: 2px;
+    padding: 7px;
 }
+
+.submit-button:hover {
+    background-color: rgba(188, 206, 167, 1);
+}
+
+/*---------------------------------- Footer */
 
 footer {
     height: 85px;
+    background-color: #fafafa;
+    position: fixed;
+    bottom: 0;
+    width: 100%
 }
 
-.social-links {
+.social-links ul {
     text-align: center;
-    display: inline;
 }
 
-.social-links > li {
+.social-links li {
     display: inline;
 }
 
 .social-links i {
-    font-size: 20px;
-    margin: 2px;
-    padding: 5%;
+    font-size: 2rem;
+    margin-left: 6rem;
+    padding: 30px 20px 0 10%;
+    color: rgba(86, 87, 82, 0.49);
+
 }
+
+.social-links a:hover {
+    border: none;
+    text-decoration: none;
+    color: #2f2822;
+}
+
+/*---------------------------------- Media Queries */
+
+@media (max-width : 1200px) {
+    #about {
+        width: 80%;
+        height: 600px;
+        margin: 0 auto;
+        padding: 70px 0 50px;
+    }
+
+    .about-left,
+    .about-right {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .about-left {
+        margin-right: 100px;
+    }
+
+    .about-right {
+        margin-left: 100px;
+    }
+}
+

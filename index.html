@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="//use.fontawesome.com/releases/v5.7.2/css/all.css" type="text/css">
     <title>Jess Hynes Music</title>
@@ -82,6 +81,7 @@
         will be played whilst the guests are seated, the bridal entrance, 
         during the signing of the register and as the married couple and guests exit.
       </p>
+      <br class="package-spacer">
       <h5 class="subtitle">Package 2</h5>
       <p><em>Pre Ceremony, Ceremony & Drinks Reception - (Guitarist accompanied)</em>
       <br><br>
@@ -96,7 +96,7 @@
         Package 3 adds two sets throughout the Wedding Breakfast. The Bride and Groom will have their vision become
         reality as we work together to create their perfect setlist.
       </p>
-      <br>
+      <br class="package-spacer">
       <h5 class="subtitle">Package 4</h5>
       <p><em>Pre Ceremony, Ceremony, Drinks Reception, Wedding Breakfast & First Dance - (Guitarist accompanied)</em>
       <br><br>
@@ -106,13 +106,13 @@
     </div>
     <br>
   </section>
-  <section>
-    <h5 class="subtitle">Event Services</h5>
-    <div>
+  <section id="events">
+    <div id="events-sub"><h5 class="subtitle">Event Services</h5></div>
+    <div id="events-paragraph">
       <ul class="events-list">
         <li>Private parties/functions -</li>
         <li>Corperate events -</li>
-        <li>Charity fundraisers -</li>
+        <li>Charity fundraisers <span id="hide">-</span></li>
         <li>Festivals -</li>
         <li>Store Openings</li>
       </ul>
@@ -133,23 +133,17 @@
       <h2 class="subtitle green-sub" id="music-sub">Music</h2>
     </div>
     <div class="video-row">
-      <div id="vid-left">
-        <div id="v-left">
-          <iframe width="100%" height="300" src="https://www.youtube.com/embed/bWqHzU7dweI" 
-            title="Ibiza Soul" frameborder="0" allowfullscreen></iframe>
-        </div>
+      <div class="video">
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/bWqHzU7dweI" 
+          title="Ibiza Soul" frameborder="0" allowfullscreen></iframe>
       </div>
-      <div id="vid-right">
-        <div id="v-right">
-          <iframe width="100%" height="300" src="https://www.youtube.com/embed/dr8--2tgGyg"
-            title="Jess Hynes Duo" frameborder="0" allowfullscreen></iframe>
-        </div>
+      <div class="video">
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/dr8--2tgGyg"
+          title="Jess Hynes Duo" frameborder="0" allowfullscreen></iframe>
       </div>
-      <div class="vid-center">
-        <div class="v-center">
-          <iframe width="100%" height="300" src="https://www.youtube.com/embed/pmH7hR2027E" 
-            title="Ibiza Soul" frameborder="0" allowfullscreen></iframe>
-        </div>
+      <div class="video">
+        <iframe width="100%" height="300" src="https://www.youtube.com/embed/pmH7hR2027E" 
+          title="Ibiza Soul" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </section>
@@ -169,28 +163,28 @@
   </section>
 
   <footer>
-    <ul class="social-links">
-      <li>
+    <div class="social-links footer-row">
+      <span>
         <a href="https://www.facebook.com" target="_blank">
           <i class="fab fa-facebook"></i>
         </a>          
-      </li>
-      <li>
+      </span>
+      <span>
         <a href="https://www.instagram.com" target="_blank">
           <i class="fab fa-instagram"></i>
         </a>
-      </li>
-      <li>
+      </span>
+      <span>
         <a href="https://www.youtube.com" target="_blank">
           <i class="fab fa-youtube"></i>
         </a>
-      </li>
-      <li>
+      </span>
+      <span>
         <a href="https://www.spotify.com" target="_blank">
           <i class="fab fa-spotify"></i>
         </a>
-      </li>
-    <ul>
+      </span>
+    <div>
   </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

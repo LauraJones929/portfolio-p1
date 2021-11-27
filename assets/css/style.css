@@ -8,11 +8,13 @@
 
 body {
     font-family: "Inter", sans-serif;
+    font-size: 1.1rem;
     color: #2f2822;
+    line-height: 30px;
 }
 
 .subtitle {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     padding-top: 25px;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
@@ -25,13 +27,13 @@ body {
 }
 
 .spacer {
-    height: 600px;
+    height: 300px;
 }
 
 /*---------------------------------- Images */
 
 .main-image {
-    height: 80vh;
+    height: 150vh;
     width: 100vw;
     background: url("../imgs/background/jess.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -53,10 +55,10 @@ body {
 
 header {
     background-color: #fafafa;
-    height: 85px;
+    width: 100vw;
+    height: 100px;
     position: fixed;
     top: 0;
-    width: 100%
 }
 
 .title-link {
@@ -70,9 +72,10 @@ header {
 
 #name-title {
     font-family: "Parisienne", cursive;
+    font-weight: 200;
+    font-size: 50px;
     color: #2f2822;
-    padding-top: 15px;
-    padding-left: 35px;
+    padding-left: 60px;
     position: relative;
     display: inline-block;
 }
@@ -80,22 +83,25 @@ header {
 .name-line {
     position: absolute;
     border-top: rgba(36, 109, 17, 0.57) 1px solid;
-    width: 90%;
-    top: 60%;
-    left: 13%;
+    width: 85%;
+    top: 50%;
+    left: 20%;
 }
 
 #music-title {
     font-family: "Raleway", sans-serif;
-    color: rgba(36, 109, 17, 0.57);
+    color: rgba(36, 109, 17, 1);
     font-size: 25px;
-    padding-left: 55px;
-    bottom: 35px;
+    font-weight: 200;
+    padding-left: 85px;
+    bottom: 60px;
     position: relative;
 }
 
 .nav-menu {
     float: right;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .nav-menu li {
@@ -107,15 +113,19 @@ header {
 
 .nav-menu a {
     text-decoration: none;
-    color: inherit;
     text-transform: uppercase;
     padding: 5px;
+    color: inherit;
 }
 
 .nav-menu a:hover {
     border-bottom-style: solid;
     border-bottom-width: thin;
     border-bottom-color: rgba(36, 109, 17, 0.57);
+}
+
+.nav-menu li:hover {
+    font-weight: 600;
 }
 
 .title-link,
@@ -133,9 +143,8 @@ header {
 }
 
 .about-left {
-    margin-left: 100px;
-    margin-bottom: 80px;
-    padding: 0 20px 40px 40px;
+    margin: 0 10px 60px 60px;
+    padding: 20px;
     float: left;
     text-align: center;
     width: 40%;
@@ -149,9 +158,8 @@ header {
 }
 
 .about-right {
-    margin-right: 100px;
-    margin-bottom: 80px;
-    padding: 0 20px 20px 20px;
+    margin: 0 60px 60px 10px;
+    padding: 20px;
     float: right;
     text-align: center;
     width: 40%;
@@ -173,7 +181,7 @@ header {
     float: left;
     text-align: center;
     width: 40%;
-    height: 100%;
+    height: 600px;
 }
 
 .package-three-four {
@@ -183,7 +191,7 @@ header {
     float: right;
     text-align: center;
     width: 40%;
-    height: 110%;
+    height: 600px;
 }
 
 .package-one-two,
@@ -191,6 +199,10 @@ header {
     padding: 20px;
     background-color: rgba(36, 109, 17, 0.05);
     border-radius: 2px;
+}
+
+#events-sub {
+    clear: both;
 }
 
 .events-list li {
@@ -214,7 +226,7 @@ header {
 
 a i {
     color:rgba(36, 109, 17, 0.57);
-    font-size: 20px;
+    font-size: 25px;
 }
 
 a i:hover {
@@ -224,7 +236,7 @@ a i:hover {
 /*---------------------------------- Music Vids */
 
 #music {
-    height: 500px;
+    height: auto;
     width: 100%;
 }
 
@@ -243,22 +255,34 @@ a i:hover {
     place-content: space-evenly;
 }
 
+.video {
+    position: relative;
+    padding-top: 25%;
+    height: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     padding: 7px 7px;
     margin: 5px 0;
-    border: solid #2f2822 thin;
+    width: 100%;
+    height: 100%;
 }
 
 /*---------------------------------- Form */
 
-
 .contact-form {
-    margin: 30px 0 40px 0;
-    position: absolute;
-    left: 34%;
-    color: #2f2822;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    color: #2f2122;
     background-color: rgba(135, 164, 101, 0.5);
-    max-width: 400px;
     text-align: left;
     padding: 30px;
 }
@@ -267,21 +291,28 @@ input[type=text],
 input[type=email],
 textarea {
     background-color: #fafafa;;
-    width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
     padding: 20px;
     border: #2f2822 1px solid;
     border-radius: 3px;
-    font-family: "Inter", sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-size: inherit;
+}
+
+input[type=text],
+input[type=email] {
+    width: 90%;
 }
 
 textarea {
     height: 100px;
     padding: 10px;
+    width: 95%;
 }
 
 .submit-button {
+    font-family: inherit;
     background-color: #fafafa;
     border: #2f2822 solid thin;
     border-radius: 2px;
@@ -296,26 +327,29 @@ textarea {
 
 footer {
     height: 85px;
+    width: 100vw;
     background-color: #fafafa;
+    opacity: 60%;
     position: fixed;
     bottom: 0;
     width: 100%
 }
 
-.social-links ul {
-    text-align: center;
-}
-
-.social-links li {
-    display: inline;
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    place-content: space-evenly;
 }
 
 .social-links i {
+    margin: 30px 30px 50px 80px;
     font-size: 2rem;
-    margin-left: 6rem;
-    padding: 30px 20px 0 10%;
-    color: rgba(86, 87, 82, 0.49);
+    color: rgba(86, 87, 82, 1);
+    bottom: 5px;
+}
 
+.social-links a {
+    text-decoration: none;
 }
 
 .social-links a:hover {
@@ -326,26 +360,183 @@ footer {
 
 /*---------------------------------- Media Queries */
 
+/*----------------------------- Small laptop */
+
 @media (max-width : 1200px) {
+    header {
+        height: 120px;
+    }
+
+    #about,
+    #packages,
+    #music,
+    #contact {
+        padding-top: 40px;
+    }
+
+/*------------------------- Header */
+
+    .subtitle {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+/*------------------------- About section */
+
     #about {
         width: 80%;
         height: 600px;
         margin: 0 auto;
-        padding: 70px 0 50px;
-    }
-
-    .about-left,
-    .about-right {
-        width: 100%;
-        margin-bottom: 30px;
+        padding: 0 auto;
     }
 
     .about-left {
-        margin-right: 100px;
+        width: 80%;
+        padding: 0 auto;
+        margin: 0 0 0 60px;
     }
 
     .about-right {
-        margin-left: 100px;
+        width: 80%;
+        padding: 0 auto;
+        margin: 0 65px 60px 65px;
     }
+
+/*------------------------- Packages section */
+
+    #packages {
+        width: 100%;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+    .subtitle {
+        padding-bottom: 20px;
+    }
+
+    .package-spacer {
+        display: none;
+    }
+
+    .package-one-two {
+        float: right;
+        width: 80%;
+        padding: 0 auto;
+        margin: 0 77px 0 0;
+    }
+
+    .package-three-four {
+        float: left;
+        width: 80%;
+        padding: 0 auto;
+        margin: 0 0 40px 88px;
+    }
+
+    #events-sub {
+        height: 80px;
+    }
+
+    #events-paragraph {
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    .contact-icon i {
+        font-size: 40px;
+    }
+
+/*------------------------- Videos section */
+
+    #music {
+    height: auto;
+    }
+
+    .video-row {
+        display: inline-block;
+    }
+
+    .video {
+        position: static;
+        margin: 0 0 0 120px;
+        padding: 10px;
+        height: 500px;
+        width: 700px;
+        text-align: center;
+    }
+
+    .video iframe {
+        position: static;
+    }
+
+/*------------------------- Contact section */
+
+    #contact {
+        bottom: 200px;
+    }   
+
 }
 
+/*----------------------------- Tablet/landscape */
+
+@media (max-width : 992px) {
+    header {
+        height: 120px;
+    }
+
+/*------------------------- About section */
+
+    #about,
+    #packages,
+    #music,
+    #contact {
+        padding-top: 30px;
+    }
+
+    #about {
+        width: 90%;
+        height: 600px;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .about-left {
+        width: 100%;
+        padding: 0 auto;
+        margin: 0 auto;
+    }
+
+    .about-right {
+        width: 100%;
+        padding: 0 auto;
+        margin: 0 auto;
+    }
+
+    /*------------------------- Videos section */
+
+    #music {
+        height: auto;
+        }
+    
+        .video-row {
+            display: inline-block;
+        }
+    
+        .video {
+            position: static;
+            margin: 0 0 0 80px;
+            padding: 10px;
+            height: 500px;
+            width: 700px;
+            text-align: center;
+        }
+    
+        .video iframe {
+            position: static;
+        }
+
+}

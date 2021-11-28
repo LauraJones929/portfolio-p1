@@ -354,6 +354,12 @@ footer {
     color: #2f2822;
 }
 
+#css-icon {
+    position: absolute;
+    left: 15px;
+    bottom: 2px;
+}
+
 
 /*---------------------------------- Media Queries */
 

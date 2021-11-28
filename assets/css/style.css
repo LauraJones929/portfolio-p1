@@ -491,7 +491,7 @@ footer {
     }
 
     #name-title {
-        font-size: 50px;
+        font-size: 50gpx;
         padding-left: 30px;
         top: 5px;
     }
@@ -808,7 +808,7 @@ and (orientation : landscape) {
 
 /*----------------------------- Mobile-sm (portrait) */
 
-@media (min-width : 320px) {
+@media (max-width : 424px) {
 
     body {
         font-size: 13px;
@@ -971,7 +971,7 @@ and (orientation : landscape) {
 
 /*----------------------------- Mobile-sm (landscape) */
 
-@media screen and (min-width : 568px)
+@media screen and (max-width : 568px)
 and (orientation : landscape) {
 
 /* --------------------- Header*/

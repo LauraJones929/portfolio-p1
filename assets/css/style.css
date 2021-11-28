@@ -384,18 +384,18 @@ footer {
         width: 80%;
         height: 600px;
         margin: 0 auto;
-        padding: 0 auto;
+        padding: 0;
     }
 
     .about-left {
         width: 80%;
-        padding: 0 auto;
+        padding: 0;
         margin: 0 0 0 60px;
     }
 
     .about-right {
         width: 80%;
-        padding: 0 auto;
+        padding: 0;
         margin: 0 65px 60px 65px;
     }
 
@@ -418,14 +418,14 @@ footer {
     .package-one-two {
         float: right;
         width: 80%;
-        padding: 0 auto;
+        padding: 0;
         margin: 0 77px 0 0;
     }
 
     .package-three-four {
         float: left;
         width: 80%;
-        padding: 0 auto;
+        padding: 0;
         margin: 0 0 40px 88px;
     }
 
@@ -450,7 +450,7 @@ footer {
 /*------------------------- Videos section */
 
     #music {
-    height: auto;
+        height: auto;
     }
 
     .video-row {
@@ -475,9 +475,7 @@ footer {
     #contact {
         bottom: 200px;
     }   
-
 }
-
 
 
 /*----------------------------- Tablet */
@@ -491,7 +489,7 @@ footer {
     }
 
     #name-title {
-        font-size: 50gpx;
+        font-size: 35px;
         padding-left: 30px;
         top: 5px;
     }
@@ -518,14 +516,14 @@ footer {
         width: 95%;
         height: 600px;
         margin: 0 auto;
-        padding: 0 auto;
+        padding: 0;
     }
 
     .about-left {
         display: flex;
         justify-content: center;
         width: 95%;
-        padding: 0 auto;
+        padding: 0;
         margin: 0 auto;
     }
 
@@ -533,7 +531,7 @@ footer {
         display: flex;
         justify-content: center;
         width: 95%;
-        padding: 0 auto;
+        padding: 0;
         margin: 0 0 50px 0;
     }
 
@@ -555,13 +553,13 @@ footer {
 
     .package-one-two {
         width: 80%;
-        padding: 0 auto;
+        padding: 0;
         margin: 0 55px 0 0;
     }   
 
     .package-three-four {
         width: 80%;
-        padding: 0 auto;
+        padding: 0;
         margin: 0 0 0 58px;
     }
 
@@ -591,9 +589,7 @@ footer {
     .spacer {
         height: 150px;
     }
-
 }
-
 
 
 /*----------------------------- Mobile-lg (portrait) */
@@ -655,12 +651,12 @@ footer {
         width: 90%;
         height: 750px;
         margin: 0 auto;
-        padding: 0 auto;
+        padding: 0;
     }
 
     .about-left {
         width: 90%;
-        padding: 0 auto;
+        padding: 0;
         margin: 0 auto;
         height: 350px;
         display: flex;
@@ -669,7 +665,7 @@ footer {
 
     .about-right {
         width: 90%;
-        padding: 0 auto;
+        padding: 0;
         margin: 0 0 40px 0;
         height: 350px;
         display: flex;
@@ -694,14 +690,14 @@ footer {
 
     .package-one-two {
         width: 80%;
-        padding: 0 auto;
+        padding: 0;
         margin: 0 20px 0 0;
         height: 750px;
     }
 
     .package-three-four {
         width: 80%;
-        padding: 0 auto;
+        padding: 0;
         margin: 0 0 0 25px;
         height: 780px;
     }
@@ -801,19 +797,18 @@ and (orientation : landscape) {
     .video-row {
         display: flex;
         flex-direction: row;
-        place-content: evenly-spaced;
+        place-content: space-evenly;
     }
 
     .video {
         margin: 0 auto;
         height: 200px;
-        padding: 0 auto;
+        padding: 0;
     }
 
     footer {
         height: 70px;
     }
-
 }
 
 /*----------------------------- Mobile-sm (portrait) */
@@ -867,12 +862,12 @@ and (orientation : landscape) {
         width: 95%;
         height: 650px;
         margin: 0 auto;
-        padding: 0 auto;
+        padding: 0;
     }
 
     .about-left {
         width: 90%;
-        padding: 0 auto;
+        padding: 0;
         margin-right: 15px;
         height: 270px;
         display: flex;
@@ -881,7 +876,7 @@ and (orientation : landscape) {
 
     .about-right {
         width: 90%;
-        padding: 0 auto;
+        padding: 0;
         margin: 0 0 0 35px;
         height: 290px;
         display: flex;
@@ -1005,19 +1000,19 @@ and (orientation : landscape) {
         width: 95%;
         height: 420px;
         margin: 0 auto;
-        padding: 0 auto;
+        padding: 0;
     }
     
     .about-left {
         width: 90%;
-        padding: 0 auto;
+        padding: 0;
         margin-right: 15px;
         height: 130px;
     }
     
     .about-right {
         width: 90%;
-        padding: 0 auto;
+        padding: 0;
         margin: 0 0 0 35px;
         height: 150px;
     }
@@ -1041,13 +1036,13 @@ and (orientation : landscape) {
     .video-row {
         display: flex;
         flex-direction: row;
-        place-content: evenly-spaced;
+        place-content: space-evenly;
     }
 
     .video {
         margin: 0 auto;
         height: 150px;
-        padding: 0 auto;
+        padding: 0;
     }
 
 /* --------------------- Contact form*/

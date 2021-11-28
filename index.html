@@ -39,11 +39,8 @@
 
   </header>
 
-  <section>
-    <div class="main-image">
-      <label class="sr-only" for="main-image">Jess in the studio.</label>
+    <div class="main-image" role="img" aria-label="Jess in the studio.">
     </div>
-  </section>
 
   <section id="about">
     <h2 class="subtitle green-sub">About</h2>  
@@ -67,9 +64,8 @@
     </div>
   </section>
 
-  <section class="about-image">
-    <label class="sr-only" for="about-image">Jess performing with her band.</label>
-  </section>
+  <div class="about-image" role="img" aria-label="The Jess Hynes Band.">
+  </div>
 
   <section id="packages">
     <h2 class="subtitle green-sub events-sub">Event & Wedding Packages</h2>
@@ -117,8 +113,9 @@
         <li>Store Openings</li>
       </ul>
       <br>
-      <p class="get-in-touch"><em><small>If you have any enquiries regarding 
-        availabity, pricing or any other general questions, please use our contact form.</em></small>
+      <p class="get-in-touch">
+        <em><small>If you have any enquiries regarding 
+        availabity, pricing or any other general questions, please use our contact form.</small></em>
       </p>
       <span class="contact-icon">
         <a href="#contact">
@@ -134,16 +131,16 @@
     </div>
     <div class="video-row">
       <div class="video">
-        <iframe width="100%" height="300" src="https://www.youtube.com/embed/bWqHzU7dweI" 
-          title="Ibiza Soul" frameborder="0" allowfullscreen></iframe>
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/bWqHzU7dweI" 
+          title="Ibiza Soul" allowfullscreen></iframe>
       </div>
       <div class="video">
-        <iframe width="100%" height="300" src="https://www.youtube.com/embed/dr8--2tgGyg"
-          title="Jess Hynes Duo" frameborder="0" allowfullscreen></iframe>
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/dr8--2tgGyg"
+          title="Jess Hynes Duo" allowfullscreen></iframe>
       </div>
       <div class="video">
-        <iframe width="100%" height="300" src="https://www.youtube.com/embed/pmH7hR2027E" 
-          title="Ibiza Soul" frameborder="0" allowfullscreen></iframe>
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/pmH7hR2027E" 
+          title="Ibiza Soul" allowfullscreen></iframe>
       </div>
     </div>
   </section>
@@ -154,7 +151,7 @@
       <form class="contact-form">
         <input type="text" id="name" name="full_name" required placeholder="Name">
         <input type="email" id="email" name="email_address" required placeholder="Email">
-        <textarea rows="5" type="text" id="message" name="message" placeholder="Enquiry details..." required></textarea>
+        <textarea rows="5" id="message" name="message" placeholder="Enquiry details..." required></textarea>
         <input class="submit-button" type="submit" value="Submit">
       </form>
       <div class="spacer">
@@ -184,7 +181,7 @@
           <i class="fab fa-spotify"></i>
         </a>
       </span>
-    <div>
+    </div>
   </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

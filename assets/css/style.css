@@ -33,7 +33,7 @@ body {
 /*---------------------------------- Images */
 
 .main-image {
-    height: 150vh;
+    height: 100vh;
     width: 100vw;
     background: url("../imgs/background/jess.jpeg") no-repeat center center fixed;
 }
@@ -338,10 +338,10 @@ footer {
 }
 
 .social-links i {
-    margin: 30px 30px 50px 80px;
+    margin: 0 auto;
+    padding-top: 30px;
     font-size: 2rem;
     color: rgba(86, 87, 82, 1);
-    bottom: 5px;
 }
 
 .social-links a {
@@ -487,7 +487,7 @@ footer {
 /*-------------------------  Header */
 
     header {
-        height: 120px;
+        height: 100px;
     }
 
     #name-title {
@@ -522,12 +522,16 @@ footer {
     }
 
     .about-left {
+        display: flex;
+        justify-content: center;
         width: 95%;
         padding: 0 auto;
         margin: 0 auto;
     }
 
     .about-right {
+        display: flex;
+        justify-content: center;
         width: 95%;
         padding: 0 auto;
         margin: 0 0 50px 0;
@@ -600,7 +604,7 @@ footer {
 /*-------------------------  Header */
 
     header {
-        height: 100px;
+        height: 80px;
     }
 
     #name-title {
@@ -616,7 +620,7 @@ footer {
     #music-title {
         font-size: 20px;
         padding-left: 35px;
-        bottom: -10px;
+        bottom: -15px;
     }
 
     .nav-menu {
@@ -626,7 +630,7 @@ footer {
     }
 
     .title-link, .nav-menu {
-        line-height: 25px; 
+        line-height: 18px; 
     }
     
     .nav-menu li {
@@ -659,6 +663,8 @@ footer {
         padding: 0 auto;
         margin: 0 auto;
         height: 350px;
+        display: flex;
+        justify-content: center;
     }
 
     .about-right {
@@ -666,6 +672,8 @@ footer {
         padding: 0 auto;
         margin: 0 0 40px 0;
         height: 350px;
+        display: flex;
+        justify-content: center;
     }
 
 /*------------------------- Packages section */
@@ -719,6 +727,8 @@ footer {
     }
     
     .video {
+        display: flex;
+        justify-content: center;
         position: static;
         margin-bottom: 10px;
         padding: 10px;
@@ -756,7 +766,7 @@ footer {
 /*------------------------- Footer */
 
     .social-links i {
-        margin: 30px 0 0 35px;
+        margin: 0 auto;
         font-size: 1.5rem;
     }
 
@@ -811,8 +821,8 @@ and (orientation : landscape) {
 @media (max-width : 424px) {
 
     body {
-        font-size: 13px;
-        line-height: 20px;
+        font-size: 15px;
+        line-height: 22px;
     }
 
     .green-sub {
@@ -834,15 +844,15 @@ and (orientation : landscape) {
 
     #music-title {
         font-size: 12px;
-        padding-left: 27px;
-        bottom: -2px;
+        padding-left: 30px;
+        bottom: -8px;
     }
 
     .nav-menu {
         float: right;
         width: 250px;
         padding: 0;
-        padding-bottom: 5px;
+        padding-top: 20px;
     }
 
     .nav-menu li {
@@ -855,7 +865,7 @@ and (orientation : landscape) {
 
     #about {
         width: 95%;
-        height: 550px;
+        height: 650px;
         margin: 0 auto;
         padding: 0 auto;
     }
@@ -864,14 +874,18 @@ and (orientation : landscape) {
         width: 90%;
         padding: 0 auto;
         margin-right: 15px;
-        height: 210px;
+        height: 270px;
+        display: flex;
+        justify-content: center;
     }
 
     .about-right {
         width: 90%;
         padding: 0 auto;
         margin: 0 0 0 35px;
-        height: 230px;
+        height: 290px;
+        display: flex;
+        justify-content: center;
     }
 
 /* --------------------- Packages section*/
@@ -899,14 +913,14 @@ and (orientation : landscape) {
 
     .package-one-two {
         width: 80%;
-        margin-right: 12px;
-        height: 440px;
+        margin-right: 15px;
+        height: 470px;
     }
 
     .package-three-four {
         width: 80%;
-        margin-left: 12px;
-        height: 450px;
+        margin-left: 18px;
+        height: 480px;
     }
 
 /* --------------------- Contact form*/
@@ -951,7 +965,7 @@ and (orientation : landscape) {
         padding: 10px;
         height: 250px;
         width: 280px;
-        text-align: center;
+        margin-left: 40px;
     }
     
     .video iframe {

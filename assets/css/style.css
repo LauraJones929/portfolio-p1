@@ -27,7 +27,7 @@ body {
 }
 
 .spacer {
-    height: 300px;
+    height: 150px;
 }
 
 /*---------------------------------- Images */
@@ -97,6 +97,7 @@ header {
     float: right;
     margin: 0 auto;
     padding: 20px;
+    margin-right: 30px;
 }
 
 .nav-menu li {
@@ -482,8 +483,26 @@ footer {
 /*----------------------------- Tablet */
 
 @media (max-width : 992px) {
+
+/*-------------------------  Header */
+
     header {
         height: 120px;
+    }
+
+    #name-title {
+        font-size: 50px;
+        padding-left: 30px;
+        top: 5px;
+    }
+    
+    #music-title {
+        font-size: 20px;
+        padding-left: 55px;
+    }
+
+    .nav-menu {
+        margin-right: 0;
     }
 
 /*------------------------- About section */
@@ -573,7 +592,7 @@ footer {
 
 
 
-/*----------------------------- Mobile */
+/*----------------------------- Mobile-lg (portrait) */
 
 @media (max-width : 767px) {
     
@@ -679,6 +698,16 @@ footer {
         height: 780px;
     }
 
+    #events-paragraph {
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+    }
+
+    .contact-icon i {
+        font-size: 30px;
+    }
+
     /*------------------------- Videos section */
 
     #music {
@@ -731,4 +760,306 @@ footer {
         font-size: 1.5rem;
     }
 
+}
+
+/*----------------------------- Mobile-lg (landscape) */
+
+@media screen and (max-width : 736px)
+and (orientation : landscape) {
+
+    header {
+        height: 70px;
+    }
+
+    #about {
+        height: 500px;
+    }
+
+    .about-left,
+    .about-right {
+        height: 200px;
+    }
+
+    .package-one-two {
+        margin-right: 55px;
+    }
+
+    .package-three-four {
+        margin-left: 50px;
+    }
+
+    .video-row {
+        display: flex;
+        flex-direction: row;
+        place-content: evenly-spaced;
+    }
+
+    .video {
+        margin: 0 auto;
+        height: 200px;
+        padding: 0 auto;
+    }
+
+    footer {
+        height: 70px;
+    }
+
+}
+
+/*----------------------------- Mobile-sm (portrait) */
+
+@media (min-width : 320px) {
+
+    body {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .green-sub {
+        margin-top: 0;
+        padding: 10px 0;
+    }
+
+/* --------------------- Header*/
+
+    header {
+        height: 80px;
+    }
+
+    #name-title {
+        font-size: 20px;
+        padding-left: 15px;
+        top: 12px;
+    }
+
+    #music-title {
+        font-size: 12px;
+        padding-left: 27px;
+        bottom: -2px;
+    }
+
+    .nav-menu {
+        float: right;
+        width: 250px;
+        padding: 0;
+        padding-bottom: 5px;
+    }
+
+    .nav-menu li {
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
+    }
+
+/* --------------------- About section*/
+
+    #about {
+        width: 95%;
+        height: 550px;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .about-left {
+        width: 90%;
+        padding: 0 auto;
+        margin-right: 15px;
+        height: 210px;
+    }
+
+    .about-right {
+        width: 90%;
+        padding: 0 auto;
+        margin: 0 0 0 35px;
+        height: 230px;
+    }
+
+/* --------------------- Packages section*/
+
+    .events-sub {
+        margin: 20px 0;
+    }
+
+    #packages {
+        height: 800px;
+    }
+
+    #packages h5 {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    #packages p {
+        padding-bottom: 30px;
+    }
+
+    .package-spacer {
+        display: none;
+    }
+
+    .package-one-two {
+        width: 80%;
+        margin-right: 12px;
+        height: 440px;
+    }
+
+    .package-three-four {
+        width: 80%;
+        margin-left: 12px;
+        height: 450px;
+    }
+
+/* --------------------- Contact form*/
+
+    .contact-form {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 200px;
+    }
+
+    input[type=text],
+    input[type=email],
+    textarea {
+        height: 5px;
+        padding: 15px;
+        width: 85%;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    .spacer {
+        height: 80px;
+    }
+
+/* --------------------- Music vids*/
+
+    #music {
+        height: auto;
+    }
+    
+    .video-row {
+        display: inline-block;
+    }
+    
+    .video {
+        position: static;
+        margin-bottom: 10px;
+        padding: 10px;
+        height: 250px;
+        width: 280px;
+        text-align: center;
+    }
+    
+    .video iframe {
+        position: static;
+    }
+
+/* --------------------- Footer*/
+
+    footer {
+        height: 60px;
+    }
+
+    .social-links i {
+        font-size: 1.2rem;
+    }
+}
+
+/*----------------------------- Mobile-sm (landscape) */
+
+@media screen and (min-width : 568px)
+and (orientation : landscape) {
+
+/* --------------------- Header*/
+
+    header {
+        height: 55px;
+    }
+
+    .nav-menu {
+        width: 250px;
+        padding-top: 25px;
+    }
+
+/* --------------------- About Section*/
+
+    #about {
+        width: 95%;
+        height: 420px;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    
+    .about-left {
+        width: 90%;
+        padding: 0 auto;
+        margin-right: 15px;
+        height: 130px;
+    }
+    
+    .about-right {
+        width: 90%;
+        padding: 0 auto;
+        margin: 0 0 0 35px;
+        height: 150px;
+    }
+
+/* --------------------- Packages section*/
+
+    .package-one-two {
+        width: 80%;
+        margin-right: 12px;
+        height: 320px;
+    }
+
+    .package-three-four {
+        width: 80%;
+        margin-left: 12px;
+        height: 350px;
+    }
+
+/* --------------------- Music vids*/
+
+    .video-row {
+        display: flex;
+        flex-direction: row;
+        place-content: evenly-spaced;
+    }
+
+    .video {
+        margin: 0 auto;
+        height: 150px;
+        padding: 0 auto;
+    }
+
+/* --------------------- Contact form*/
+
+    .contact-form {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 400px;
+        height: 230px;
+    }
+
+    input[type=text],
+    input[type=email],
+    textarea {
+        height: 5px;
+        padding: 15px;
+        width: 85%;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    textarea {
+        height: 60px;
+    }
+
+    .spacer {
+        height: 80px;
+    }
 }

@@ -35,12 +35,12 @@ body {
 .main-image {
     height: 100vh;
     width: 100vw;
-    background: url("../imgs/background/jess.jpeg") no-repeat center center fixed;
+    background: url("../imgs/background/jess.jpeg") no-repeat center center;
 }
 
 .about-image {
     clear: both;
-    background: url("../imgs/background/jhb.jpeg") no-repeat center center fixed;
+    background: url("../imgs/background/jhb.jpeg") no-repeat center center;
     height: 80vh;
     width: 100vw;
     background-size: cover;
@@ -354,12 +354,6 @@ footer {
     color: #2f2822;
 }
 
-#css-icon {
-    position: absolute;
-    left: 15px;
-    bottom: 2px;
-}
-
 
 /*---------------------------------- Media Queries */
 
@@ -600,7 +594,7 @@ footer {
 
 /*----------------------------- Mobile-lg (portrait) */
 
-@media (max-width : 767px) {
+@media (max-width : 425px) {
     
 
 /*-------------------------  Header */
@@ -776,7 +770,7 @@ footer {
 
 /*----------------------------- Mobile-lg (landscape) */
 
-@media screen and (max-width : 736px)
+@media screen and (max-width : 614px)
 and (orientation : landscape) {
 
     header {
@@ -819,7 +813,7 @@ and (orientation : landscape) {
 
 /*----------------------------- Mobile-sm (portrait) */
 
-@media (max-width : 424px) {
+@media (max-width : 320px) {
 
     body {
         font-size: 15px;
@@ -834,7 +828,7 @@ and (orientation : landscape) {
 /* --------------------- Header*/
 
     header {
-        height: 80px;
+        height: 70px;
     }
 
     #name-title {
@@ -853,7 +847,7 @@ and (orientation : landscape) {
         float: right;
         width: 250px;
         padding: 0;
-        padding-top: 20px;
+        padding-top: 45px;
     }
 
     .nav-menu li {
@@ -871,10 +865,15 @@ and (orientation : landscape) {
         padding: 0;
     }
 
+    #about-heading {
+        margin: 20px 0;
+    }
+
     .about-left {
         width: 90%;
         padding: 0;
-        margin-right: 15px;
+        margin-right: 0;
+        margin-left: 15px;
         height: 270px;
         display: flex;
         justify-content: center;
@@ -883,7 +882,7 @@ and (orientation : landscape) {
     .about-right {
         width: 90%;
         padding: 0;
-        margin: 0 0 0 35px;
+        margin-right: 18px;
         height: 290px;
         display: flex;
         justify-content: center;
@@ -905,7 +904,7 @@ and (orientation : landscape) {
     }
 
     #packages p {
-        padding-bottom: 30px;
+        padding-bottom: 0 10px 30px 10px;
     }
 
     .package-spacer {
@@ -914,14 +913,18 @@ and (orientation : landscape) {
 
     .package-one-two {
         width: 80%;
-        margin-right: 15px;
+        margin-right: 32px;
         height: 470px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .package-three-four {
         width: 80%;
-        margin-left: 18px;
+        margin-left: 30px;
         height: 480px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
 /* --------------------- Contact form*/
@@ -986,7 +989,7 @@ and (orientation : landscape) {
 
 /*----------------------------- Mobile-sm (landscape) */
 
-@media screen and (max-width : 568px)
+@media screen and (max-width : 614px)
 and (orientation : landscape) {
 
 /* --------------------- Header*/

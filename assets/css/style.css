@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Parisienne&family=Raleway:wght@200&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
+
+/* Fix vertical space appearing to the right when viewing on Dev tools (Chrome).
+Credit to Stackoverflow forums */
+
+html,body
+    {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 body {
@@ -13,6 +20,7 @@ body {
     line-height: 30px;
 }
 
+/* ------------------------- styles all subtitles throughout the page, h2 and h5--*/
 .subtitle {
     padding-bottom: 50px;
     padding-top: 25px;
@@ -22,15 +30,16 @@ body {
     letter-spacing: 5px;
 }
 
+/* ------------------------- styles all h2 subtitles throughout the page--*/
 .green-sub {
     color: rgba(36, 109, 17, 0.57);
 }
 
-.spacer {
+/*.spacer {
     height: 150px;
-}
+}*/
 
-/*---------------------------------- Images */
+/*---------------------------------- Background Images */
 
 .main-image {
     height: 100vh;
@@ -83,6 +92,8 @@ header {
     left: 20%;
 }
 
+/*---------------------- this allows the 'Music' title to sit under the 'Jess Hynes'
+ title giving it a logo effect --*/
 #music-title {
     font-family: "Raleway", sans-serif;
     color: rgba(36, 109, 17, 1);
@@ -93,6 +104,10 @@ header {
     position: relative;
 }
 
+/*----------------------- nav bar --*/
+
+/* Credit goes to Matt Rudge, Code Institute, Love Running Project, for
+the nav bar sitting on the right side of header (some custom CSS added) */
 .nav-menu {
     float: right;
     margin: 0 auto;
@@ -124,6 +139,8 @@ header {
     font-weight: 600;
 }
 
+/* ----------------------- line-height to allow for a sufficient amount of space between 
+title and nav bar*/
 .title-link,
 .nav-menu {
     line-height: 85px;
@@ -131,6 +148,8 @@ header {
 
 /*---------------------------------- About Section */
 
+/*---------------------------- padding to create space between subtitle and
+the element above -- */
 #about,
 #packages,
 #music,
@@ -197,6 +216,8 @@ header {
     border-radius: 2px;
 }
 
+/*----------------------------Events Section */
+
 #events-sub {
     clear: both;
 }
@@ -229,7 +250,7 @@ a i:hover {
     color: rgba(86, 87, 82, 0.49);
 }
 
-/*---------------------------------- Music Vids */
+/*---------------------------------- Music section */
 
 #music {
     height: auto;
@@ -238,11 +259,6 @@ a i:hover {
 
 #music-sub {
     padding-top: 30px;
-}
-
-#music-pad {
-    padding-bottom: 0;
-    margin-bottom: 0;
 }
 
 .video-row {
@@ -361,7 +377,7 @@ footer {
 
 @media (max-width : 1200px) {
     header {
-        height: 120px;
+        height: 100px;
     }
 
     #about,
@@ -381,20 +397,20 @@ footer {
 /*------------------------- About section */
 
     #about {
-        width: 80%;
+        width: 90%;
         height: 600px;
         margin: 0 auto;
         padding: 0;
     }
 
     .about-left {
-        width: 80%;
+        width: 100%;
         padding: 0;
         margin: 0 0 0 60px;
     }
 
     .about-right {
-        width: 80%;
+        width: 100%;
         padding: 0;
         margin: 0 65px 60px 65px;
     }
@@ -969,7 +985,7 @@ and (orientation : landscape) {
         padding: 10px;
         height: 250px;
         width: 280px;
-        margin-left: 40px;
+        margin-left: 25px;
     }
     
     .video iframe {

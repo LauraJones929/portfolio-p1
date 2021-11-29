@@ -35,9 +35,9 @@ body {
     color: rgba(36, 109, 17, 0.57);
 }
 
-/*.spacer {
+.spacer {
     height: 150px;
-}*/
+}
 
 /*---------------------------------- Background Images */
 
@@ -75,6 +75,8 @@ header {
 }
 
 #name-title {
+    margin-top: 5px;
+    margin-bottom: 0;
     font-family: "Parisienne", cursive;
     font-weight: 200;
     font-size: 50px;

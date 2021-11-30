@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Parisienne&family=Raleway:wght@200&display=swap');
 
+/* I have used display : row throughout to space elements evenly as rows and columns. This idea was thanks to
+a tutor from Code Institute, as well as finding out Stackoverflow forums.*/
 
 /* Fix vertical space appearing to the right when viewing on Dev tools (Chrome).
 Credit to Stackoverflow forums */
-
 html,body
     {
     width: 100%;
@@ -108,7 +109,7 @@ header {
 
 /*----------------------- nav bar --*/
 
-/* Credit goes to Matt Rudge, Code Institute, Love Running Project, for
+/* Credit goes to Code Institute, Love Running Project, for
 the nav bar sitting on the right side of header (some custom CSS added) */
 .nav-menu {
     float: right;
@@ -141,8 +142,6 @@ the nav bar sitting on the right side of header (some custom CSS added) */
     font-weight: 600;
 }
 
-/* ----------------------- line-height to allow for a sufficient amount of space between 
-title and nav bar*/
 .title-link,
 .nav-menu {
     line-height: 85px;
@@ -150,8 +149,6 @@ title and nav bar*/
 
 /*---------------------------------- About Section */
 
-/*---------------------------- padding to create space between subtitle and
-the element above -- */
 #about,
 #packages,
 #music,
@@ -174,13 +171,6 @@ the element above -- */
     text-align: center;
     margin: 0 20px;
     padding: 10px 20px;
-
-    /*margin: 0 10px 60px 60px;
-    padding: 20px;
-    float: left;
-    text-align: center;
-    width: 40%;
-    height: 200px;*/
 }
 
 .about-left p {
@@ -193,12 +183,6 @@ the element above -- */
     text-align: center;
     margin: 0 20px;
     padding: 10px 20px;
-    /*margin: 0 60px 60px 10px;
-    padding: 20px;
-    float: right;
-    text-align: center;
-    width: 40%;
-    height: 200px;*/
 }
 
 .about-right p {
@@ -217,20 +201,12 @@ the element above -- */
 }
 
 .package-one-two {
-    /*margin-left: 90px;
-    margin-bottom: 80px;
-    padding: 0 20px 20px 20px;
-    float: left;*/
     text-align: center;
     width: 40%;
     height: 680px;
 }
 
 .package-three-four {
-    /*margin-right: 90px;
-    margin-bottom: 80px;
-    padding: 0 20px 20px 20px;
-    float: right;*/
     text-align: center;
     width: 40%;
     height: 680px;
@@ -481,20 +457,6 @@ footer {
         height: 750px;
     }
 
-    .package-one-two {
-        /*float: right;
-        width: 80%;
-        padding: 0;
-        margin: 0 77px 0 0;*/
-    }
-
-    .package-three-four {
-        /*float: left;
-        width: 80%;
-        padding: 0;
-        margin: 0 0 40px 88px;*/
-    }
-
     #events-sub {
         height: 80px;
     }
@@ -593,11 +555,6 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 
     .about-left {
         height: 200px;
-        /*display: flex;
-        justify-content: center;
-        width: 95%;
-        padding: 0;
-        margin: 0 auto;*/
     }
 
     .about-left p {
@@ -607,11 +564,6 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 
     .about-right {
         height: 200px;
-        /*display: flex;
-        justify-content: center;
-        width: 95%;
-        padding: 0;
-        margin: 0 0 50px 0;*/
     }
 
     .about-right p {
@@ -662,18 +614,6 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
         display: none;
     }
 
-    /*.package-one-two {
-        width: 80%;
-        padding: 0;
-        margin: 0 55px 0 0;
-    }   
-
-    .package-three-four {
-        width: 80%;
-        padding: 0;
-        margin: 0 0 0 58px;
-    }*/
-
     /*------------------------- Videos section */
 
     #music {
@@ -705,9 +645,9 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 
 /*----------------------------- Mobile devices */
 
+/*--- Paragraph text is full width of the screen. Most features are smaller including subtitles and spacing--*/
 @media (max-width : 576px) {
     
-
 /*-------------------------  Header */
 
     header {
@@ -777,20 +717,10 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
     .about-right {
         width: 100%;
         margin: 0;
-       /* padding: 0;
-        margin: 0 auto;
-        height: 350px;
-        display: flex;
-        justify-content: center;*/
     }
 
     .about-left {
         height: 220px;
-        /*padding: 0;
-        margin: 0 0 40px 0;
-        height: 350px;
-        display: flex;
-        justify-content: center;*/
     }
 
     .about-left p,
@@ -827,16 +757,11 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 
     .package-one-two {
         width: 95%;
-        /*padding: 0;
-        margin: 0 20px 0 0;*/
         height: 600px;
         padding: 0 30px;
     }
 
     .package-three-four {
-        /*width: 80%;
-        padding: 0;
-        margin: 0 0 0 25px;*/
         width: 95%;
         height: 600px;
         padding: 0 30px;
@@ -878,10 +803,6 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
         margin-top: 0;
     }
     
-    /*.video-row {
-        display: inline-block;
-    }*/
-    
     .video {
         display: flex;
         flex-direction: column;
@@ -891,10 +812,6 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
         height: 450px;
         width: 530px;
     }
-    
-    /*.video iframe {
-        position: static;
-    }*/
 
 /*------------------------- Contact section */
 
@@ -927,57 +844,11 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 
 }
 
-/*----------------------------- Mobile (small screen width) */
-
-@media screen and (max-width : 300px) {
-
-    header {
-        height: 70px;
-    }
-
-    #music-title {
-        font-size: 20px;
-        padding-left: 35px;
-        bottom: -5px;
-    }
-
-    #about {
-        height: 500px;
-    }
-
-    .about-left,
-    .about-right {
-        height: 200px;
-    }
-
-    .package-one-two {
-        margin-right: 55px;
-    }
-
-    .package-three-four {
-        margin-left: 50px;
-    }
-
-    .video-row {
-        display: flex;
-        flex-direction: row;
-        place-content: space-evenly;
-    }
-
-    .video {
-        margin: 0 auto;
-        height: 200px;
-        padding: 0;
-    }
-
-    footer {
-        height: 70px;
-    }
-}
-
 /*----------------------------- Mobile-sm (portrait) */
 
-/*@media (max-width : 320px) {
+/*-- Re-aligned most features to fit the width of the screen. Header and footer are smaller along with their fonts.
+    Spacing is smaller to create a better UX on smaller devices.--*/
+@media (max-width : 300px) {
 
     body {
         font-size: 15px;
@@ -987,11 +858,12 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
     .green-sub {
         margin-top: 0;
         padding: 10px 0;
+        font-size: 18px;
     }
 
 /* --------------------- Header*/
 
-    /*header {
+    header {
         height: 70px;
     }
 
@@ -1004,62 +876,78 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
     #music-title {
         font-size: 12px;
         padding-left: 30px;
-        bottom: -8px;
+        bottom: -2px;
     }
 
     .nav-menu {
-        float: right;
-        width: 250px;
+        width: 210px;
         padding: 0;
-        padding-top: 45px;
+        padding-top: 0;
+    }
+
+    .title-link,
+    .nav-menu {
+        line-height: 15px;
     }
 
     .nav-menu li {
-        font-size: 10px;
+        font-size: 8px;
         padding: 0;
         margin: 0;
     }
 
 /* --------------------- About section*/
 
-    /*#about {
-        width: 95%;
+    #about {
+        width: 100%;
         height: 650px;
-        margin: 0 auto;
+        margin: 0;
         padding: 0;
     }
 
     #about-heading {
-        margin: 20px 0;
+        margin: 20px 0 10px 0;
+    }
+
+    #about-p {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
     }
 
     .about-left {
-        width: 90%;
-        padding: 0;
-        margin-right: 0;
-        margin-left: 15px;
-        height: 270px;
-        display: flex;
-        justify-content: center;
+        width: 100%;
+        height: 280px;
+    }
+
+    .about-left p {
+        height: 220px;
     }
 
     .about-right {
-        width: 90%;
-        padding: 0;
-        margin-right: 18px;
-        height: 290px;
-        display: flex;
-        justify-content: center;
+        width: 100%;
+        height: 350px;
+    }
+
+    .about-right p {
+        height: 280px;
     }
 
 /* --------------------- Packages section*/
 
-    /*.events-sub {
+    .events-sub {
         margin: 20px 0;
     }
 
     #packages {
-        height: 800px;
+        width: 100%;
+        height: 1150px;
+    }
+
+    #package-p {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
     }
 
     #packages h5 {
@@ -1068,7 +956,7 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
     }
 
     #packages p {
-        padding-bottom: 0 10px 30px 10px;
+        padding: 0 20px;
     }
 
     .package-spacer {
@@ -1076,24 +964,51 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
     }
 
     .package-one-two {
-        width: 80%;
-        margin-right: 32px;
-        height: 470px;
-        padding-left: 5px;
-        padding-right: 5px;
+        width: 100%;
+        padding: 0;
+        height: 530px;
     }
 
     .package-three-four {
-        width: 80%;
-        margin-left: 30px;
-        height: 480px;
-        padding-left: 5px;
-        padding-right: 5px;
+        width: 100%;
+        padding: 0;
+        height: 540px;
+    }
+
+    #events-sub {
+        height: 50px;
+    }
+
+    #event-services {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-bottom: 5px;
+    }
+
+    #events ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hide-dash {
+        display: none;
+    }
+
+/* --------------------- Music Section*/
+
+    .video {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        padding: 0;
+        height: 250px;
+        width: 290px;
+        margin-left: 0;
     }
 
 /* --------------------- Contact form*/
 
-    /*.contact-form {
+    .contact-form {
         margin: 0 auto;
         margin-top: 20px;
         width: 200px;
@@ -1117,32 +1032,9 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
         height: 80px;
     }
 
-/* --------------------- Music vids*/
-
-   /* #music {
-        height: auto;
-    }
-    
-    .video-row {
-        display: inline-block;
-    }
-    
-    .video {
-        position: static;
-        margin-bottom: 10px;
-        padding: 10px;
-        height: 250px;
-        width: 280px;
-        margin-left: 25px;
-    }
-    
-    .video iframe {
-        position: static;
-    }
-
 /* --------------------- Footer*/
 
-    /*footer {
+    footer {
         height: 60px;
     }
 
@@ -1150,98 +1042,3 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
         font-size: 1.2rem;
     }
 }
-
-/*----------------------------- Mobile-sm (landscape) */
-
-/*@media screen and (max-width : 614px)
-and (orientation : landscape) {
-
-/* --------------------- Header*/
-
-    /*header {
-        height: 55px;
-    }
-
-    .nav-menu {
-        width: 250px;
-        padding-top: 25px;
-    }
-
-/* --------------------- About Section*/
-
-    /*#about {
-        width: 95%;
-        height: 420px;
-        margin: 0 auto;
-        padding: 0;
-    }
-    
-    .about-left {
-        width: 90%;
-        padding: 0;
-        margin-right: 15px;
-        height: 130px;
-    }
-    
-    .about-right {
-        width: 90%;
-        padding: 0;
-        margin: 0 0 0 35px;
-        height: 150px;
-    }
-
-/* --------------------- Packages section*/
-
-    /*.package-one-two {
-        width: 80%;
-        margin-right: 12px;
-        height: 320px;
-    }
-
-    .package-three-four {
-        width: 80%;
-        margin-left: 12px;
-        height: 350px;
-    }
-
-/* --------------------- Music vids*/
-
-    /*.video-row {
-        display: flex;
-        flex-direction: row;
-        place-content: space-evenly;
-    }
-
-    .video {
-        margin: 0 auto;
-        height: 150px;
-        padding: 0;
-    }
-
-/* --------------------- Contact form*/
-
-    /*.contact-form {
-        margin: 0 auto;
-        margin-top: 20px;
-        width: 400px;
-        height: 230px;
-    }
-
-    input[type=text],
-    input[type=email],
-    textarea {
-        height: 5px;
-        padding: 15px;
-        width: 85%;
-        margin-bottom: 10px;
-        font-size: 13px;
-    }
-
-    textarea {
-        height: 60px;
-    }
-
-    .spacer {
-        height: 80px;
-    }
-} 

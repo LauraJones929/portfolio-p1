@@ -844,11 +844,169 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 
 }
 
-/*----------------------------- Mobile-sm (portrait) */
+/*------------------------- Mobile devices (medium) --*/
+@media screen and (max-width : 415px) {
+
+    .nav-menu {
+        width: 250px;
+        padding: 0;
+        padding-top: 55px;
+    }
+
+    .nav-menu li {
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
+    }
+
+/* --------------------- About section*/
+
+    #about {
+        width: 100%;
+        height: 700px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #about-heading {
+        margin: 20px 0 10px 0;
+    }
+
+    #about-p {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .about-left {
+        width: 100%;
+        height: 280px;
+    }
+
+    .about-left p {
+        height: 220px;
+    }
+
+    .about-right {
+        width: 100%;
+        height: 350px;
+    }
+
+    .about-right p {
+        height: 280px;
+    }
+
+/* --------------------- Packages section*/
+
+    .events-sub {
+        margin: 20px 0;
+    }
+
+    #packages {
+        width: 100%;
+        height: 1400px;
+    }
+
+    #package-p {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #packages h5 {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    #packages p {
+        padding: 0 20px;
+    }
+
+    .package-spacer {
+        display: none;
+    }
+
+    .package-one-two {
+        width: 100%;
+        padding: 0;
+        height: 620px;
+    }
+
+    .package-three-four {
+        width: 100%;
+        padding: 0;
+        height: 650px;
+    }
+
+    #events-sub {
+        height: 50px;
+    }
+
+    #event-services {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-bottom: 5px;
+    }
+
+    #events ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hide-dash {
+        display: none;
+    }
+
+/* --------------------- Music Section*/
+
+    .video {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        padding: 0;
+        height: 350px;
+        width: 410px;
+        margin-left: 0;
+    }
+
+/* --------------------- Contact form*/
+
+    #contact {
+        height: 600px;
+    }
+
+    .contact-form {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 250px;
+    }
+
+    input[type=text],
+    input[type=email],
+    textarea {
+        height: 5px;
+        padding: 15px;
+        width: 85%;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    .spacer {
+        height: 80px;
+    }
+
+}
+
+
+/*----------------------------- Mobile-sm */
 
 /*-- Re-aligned most features to fit the width of the screen. Header and footer are smaller along with their fonts.
     Spacing is smaller to create a better UX on smaller devices.--*/
-@media (max-width : 300px) {
+@media screen and (max-width : 300px) {
 
     body {
         font-size: 15px;

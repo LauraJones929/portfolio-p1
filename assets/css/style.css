@@ -408,9 +408,9 @@ footer {
 
 /*---------------------------------- Media Queries */
 
-/*----------------------------- Small laptop */
+/*----------------------------- Desktop (small) */
 
-/*------- Re-aligns 'About' and 'Packages paragraphs, as well as re-aligning iframes into full width  */
+/*------- Re-aligns 'About' and 'Packages paragraphs, as well as re-aligning iframes from row into column-- */
 @media screen and (max-width : 1200px) {
     header {
         height: 100px;
@@ -540,6 +540,8 @@ footer {
 
 /*----------------------------- Tablet */
 
+/* -- Re-aligns paragraphs in 'About' and 'Packages' section from rows into columns. 
+Header height and font sizes, and footer icons become smaller. Iframes become full width --*/
 @media screen and (max-width : 768px) {
 
 /*-------------------------  Header */
@@ -557,6 +559,7 @@ footer {
     #music-title {
         font-size: 20px;
         padding-left: 55px;
+        bottom: 70px;
     }
 
     .nav-menu {
@@ -619,7 +622,7 @@ footer {
 
     #packages {
         width: 100%;
-        height: 980px;
+        height: 1400px;
         margin: 0 auto;
     }
 
@@ -627,11 +630,39 @@ footer {
         padding-bottom: 20px;
     }
 
+    #package-p {
+        display: flex;
+        flex-direction: column;
+        margin-left: 35px;
+    }
+
     .package-spacer {
         display: none;
     }
 
+    .package-one-two,
+    .package-three-four {
+        margin: 0;
+        width: 90%;
+    }
+
     .package-one-two {
+        height: 550px;
+    }
+
+    .package-three-four {
+        height: 630px;
+    }
+
+    #events-paragraph {
+        width: 70%;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    /*.package-one-two {
         width: 80%;
         padding: 0;
         margin: 0 55px 0 0;
@@ -641,7 +672,7 @@ footer {
         width: 80%;
         padding: 0;
         margin: 0 0 0 58px;
-    }
+    }*/
 
     /*------------------------- Videos section */
 
@@ -672,9 +703,9 @@ footer {
 }
 
 
-/*----------------------------- Mobile-lg (portrait) */
+/*----------------------------- Mobile devices */
 
-@media (max-width : 425px) {
+@media (max-width : 576px) {
     
 
 /*-------------------------  Header */
@@ -696,13 +727,14 @@ footer {
     #music-title {
         font-size: 20px;
         padding-left: 35px;
-        bottom: -15px;
+        bottom: -5px;
     }
 
     .nav-menu {
         float: right;
         width: 310px;
         padding-right: 5px;
+        padding-top: 40px;
     }
 
     .title-link, .nav-menu {
@@ -725,43 +757,68 @@ footer {
 
     .green-sub {
         margin-bottom: 0;
+        font-size: 22px;
     }
 
     #about {
-        width: 90%;
-        height: 750px;
+        width: 100%;
+        height: 570px;
         margin: 0 auto;
         padding: 0;
+    }
+
+    #about-p {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .about-left,
+    .about-right {
+        width: 100%;
+        margin: 0;
+       /* padding: 0;
+        margin: 0 auto;
+        height: 350px;
+        display: flex;
+        justify-content: center;*/
     }
 
     .about-left {
-        width: 90%;
-        padding: 0;
-        margin: 0 auto;
-        height: 350px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .about-right {
-        width: 90%;
-        padding: 0;
+        height: 220px;
+        /*padding: 0;
         margin: 0 0 40px 0;
         height: 350px;
         display: flex;
-        justify-content: center;
+        justify-content: center;*/
+    }
+
+    .about-left p,
+    .about-right p {
+        padding: 30px;
     }
 
 /*------------------------- Packages section */
 
     #packages {
         width: 100%;
-        height: 1600px;
+        height: 1250px;
         margin: 0 auto;
+        padding-top: 0;
+    }
+
+    #package-p {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px 0 0;
     }
 
     .subtitle {
         padding-bottom: 20px;
+    }
+
+    #packages h5 {
+        margin: 10px 0;
     }
 
     .package-spacer {
@@ -769,23 +826,42 @@ footer {
     }
 
     .package-one-two {
-        width: 80%;
-        padding: 0;
-        margin: 0 20px 0 0;
-        height: 750px;
+        width: 95%;
+        /*padding: 0;
+        margin: 0 20px 0 0;*/
+        height: 600px;
+        padding: 0 30px;
     }
 
     .package-three-four {
-        width: 80%;
+        /*width: 80%;
         padding: 0;
-        margin: 0 0 0 25px;
-        height: 780px;
+        margin: 0 0 0 25px;*/
+        width: 95%;
+        height: 600px;
+        padding: 0 30px;
+    }
+
+    #event-services {
+        margin-top: 10px;
+    }
+
+    #events-list {
+        margin-bottom: 0;
+    }
+
+    .get-in-touch {
+        margin-top: 0;
     }
 
     #events-paragraph {
         margin: 0 auto;
         text-align: center;
         width: 90%;
+    }
+
+    #hide {
+        visibility: visible;
     }
 
     .contact-icon i {
@@ -797,25 +873,28 @@ footer {
     #music {
         height: auto;
     }
-    
-    .video-row {
-        display: inline-block;
+
+    #music-sub {
+        margin-top: 0;
     }
+    
+    /*.video-row {
+        display: inline-block;
+    }*/
     
     .video {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         position: static;
         margin-bottom: 10px;
-        padding: 10px;
-        height: 300px;
-        width: 370px;
-        text-align: center;
+        padding: 0;
+        height: 450px;
+        width: 530px;
     }
     
-    .video iframe {
+    /*.video iframe {
         position: static;
-    }
+    }*/
 
 /*------------------------- Contact section */
 
@@ -848,13 +927,18 @@ footer {
 
 }
 
-/*----------------------------- Mobile-lg (landscape) */
+/*----------------------------- Mobile (small screen width) */
 
-@media screen and (max-width : 614px)
-and (orientation : landscape) {
+@media screen and (max-width : 300px) {
 
     header {
         height: 70px;
+    }
+
+    #music-title {
+        font-size: 20px;
+        padding-left: 35px;
+        bottom: -5px;
     }
 
     #about {
@@ -893,7 +977,7 @@ and (orientation : landscape) {
 
 /*----------------------------- Mobile-sm (portrait) */
 
-@media (max-width : 320px) {
+/*@media (max-width : 320px) {
 
     body {
         font-size: 15px;
@@ -907,7 +991,7 @@ and (orientation : landscape) {
 
 /* --------------------- Header*/
 
-    header {
+    /*header {
         height: 70px;
     }
 
@@ -938,7 +1022,7 @@ and (orientation : landscape) {
 
 /* --------------------- About section*/
 
-    #about {
+    /*#about {
         width: 95%;
         height: 650px;
         margin: 0 auto;
@@ -970,7 +1054,7 @@ and (orientation : landscape) {
 
 /* --------------------- Packages section*/
 
-    .events-sub {
+    /*.events-sub {
         margin: 20px 0;
     }
 
@@ -1009,7 +1093,7 @@ and (orientation : landscape) {
 
 /* --------------------- Contact form*/
 
-    .contact-form {
+    /*.contact-form {
         margin: 0 auto;
         margin-top: 20px;
         width: 200px;
@@ -1035,7 +1119,7 @@ and (orientation : landscape) {
 
 /* --------------------- Music vids*/
 
-    #music {
+   /* #music {
         height: auto;
     }
     
@@ -1058,7 +1142,7 @@ and (orientation : landscape) {
 
 /* --------------------- Footer*/
 
-    footer {
+    /*footer {
         height: 60px;
     }
 
@@ -1069,12 +1153,12 @@ and (orientation : landscape) {
 
 /*----------------------------- Mobile-sm (landscape) */
 
-@media screen and (max-width : 614px)
+/*@media screen and (max-width : 614px)
 and (orientation : landscape) {
 
 /* --------------------- Header*/
 
-    header {
+    /*header {
         height: 55px;
     }
 
@@ -1085,7 +1169,7 @@ and (orientation : landscape) {
 
 /* --------------------- About Section*/
 
-    #about {
+    /*#about {
         width: 95%;
         height: 420px;
         margin: 0 auto;
@@ -1108,7 +1192,7 @@ and (orientation : landscape) {
 
 /* --------------------- Packages section*/
 
-    .package-one-two {
+    /*.package-one-two {
         width: 80%;
         margin-right: 12px;
         height: 320px;
@@ -1122,7 +1206,7 @@ and (orientation : landscape) {
 
 /* --------------------- Music vids*/
 
-    .video-row {
+    /*.video-row {
         display: flex;
         flex-direction: row;
         place-content: space-evenly;
@@ -1136,7 +1220,7 @@ and (orientation : landscape) {
 
 /* --------------------- Contact form*/
 
-    .contact-form {
+    /*.contact-form {
         margin: 0 auto;
         margin-top: 20px;
         width: 400px;
@@ -1160,4 +1244,4 @@ and (orientation : landscape) {
     .spacer {
         height: 80px;
     }
-}
+} 

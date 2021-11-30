@@ -79,7 +79,7 @@ header {
     margin-bottom: 0;
     font-family: "Parisienne", cursive;
     font-weight: 200;
-    font-size: 50px;
+    font-size: 40px;
     color: #2f2822;
     padding-left: 60px;
     position: relative;
@@ -102,7 +102,7 @@ header {
     font-size: 25px;
     font-weight: 200;
     padding-left: 85px;
-    bottom: 60px;
+    bottom: 80px;
     position: relative;
 }
 
@@ -156,16 +156,31 @@ the element above -- */
 #packages,
 #music,
 #contact {
-    padding-top: 70px;
+    padding-top: 50px;
+}
+
+#about-heading {
+    padding-bottom: 20px;
+}
+
+#about-p {
+    display: flex;
+    flex-direction: row;
+    place-content: space-evenly;
+    margin-bottom: 40px;
 }
 
 .about-left {
-    margin: 0 10px 60px 60px;
+    text-align: center;
+    margin: 0 20px;
+    padding: 10px 20px;
+
+    /*margin: 0 10px 60px 60px;
     padding: 20px;
     float: left;
     text-align: center;
     width: 40%;
-    height: 200px;
+    height: 200px;*/
 }
 
 .about-left p {
@@ -175,12 +190,15 @@ the element above -- */
 }
 
 .about-right {
-    margin: 0 60px 60px 10px;
+    text-align: center;
+    margin: 0 20px;
+    padding: 10px 20px;
+    /*margin: 0 60px 60px 10px;
     padding: 20px;
     float: right;
     text-align: center;
     width: 40%;
-    height: 200px;
+    height: 200px;*/
 }
 
 .about-right p {
@@ -191,24 +209,31 @@ the element above -- */
 
 /*---------------------------------- Packages Section */
 
+#package-p {
+    display: flex;
+    flex-direction: row;
+    place-content: space-evenly;
+    margin-bottom: 40px;
+}
+
 .package-one-two {
-    margin-left: 90px;
+    /*margin-left: 90px;
     margin-bottom: 80px;
     padding: 0 20px 20px 20px;
-    float: left;
+    float: left;*/
     text-align: center;
     width: 40%;
-    height: 600px;
+    height: 680px;
 }
 
 .package-three-four {
-    margin-right: 90px;
+    /*margin-right: 90px;
     margin-bottom: 80px;
     padding: 0 20px 20px 20px;
-    float: right;
+    float: right;*/
     text-align: center;
     width: 40%;
-    height: 600px;
+    height: 680px;
 }
 
 .package-one-two,
@@ -224,12 +249,20 @@ the element above -- */
     clear: both;
 }
 
+#event-services {
+    padding-bottom: 20px;
+}
+
 .events-list li {
     display: inline;
 }
 
 .events-list {
     text-align: center;
+}
+
+#events-paragraph ul {
+    padding-inline-start: 0;
 }
 
 .get-in-touch {
@@ -377,7 +410,8 @@ footer {
 
 /*----------------------------- Small laptop */
 
-@media (max-width : 1200px) {
+/*------- Re-aligns 'About' and 'Packages paragraphs, as well as re-aligning iframes into full width  */
+@media screen and (max-width : 1200px) {
     header {
         height: 100px;
     }
@@ -398,9 +432,13 @@ footer {
     
 /*------------------------- About section */
 
+    #about-heading {
+        margin-bottom: 0;
+    }
+
     #about {
         width: 90%;
-        height: 600px;
+        height: 500px;
         margin: 0 auto;
         padding: 0;
     }
@@ -408,20 +446,25 @@ footer {
     .about-left {
         width: 100%;
         padding: 0;
-        margin: 0 0 0 60px;
+        margin: 20px;
+        height: 400px;
+    }
+
+    .about-left p {
+        height: 270px;
     }
 
     .about-right {
         width: 100%;
         padding: 0;
-        margin: 0 65px 60px 65px;
+        margin: 20px;
     }
 
 /*------------------------- Packages section */
 
     #packages {
         width: 100%;
-        height: 600px;
+        height: 900px;
         margin: 0 auto;
     }
 
@@ -433,18 +476,23 @@ footer {
         display: none;
     }
 
+    .package-one-two,
+    .package-three-four {
+        height: 750px;
+    }
+
     .package-one-two {
-        float: right;
+        /*float: right;
         width: 80%;
         padding: 0;
-        margin: 0 77px 0 0;
+        margin: 0 77px 0 0;*/
     }
 
     .package-three-four {
-        float: left;
+        /*float: left;
         width: 80%;
         padding: 0;
-        margin: 0 0 40px 88px;
+        margin: 0 0 40px 88px;*/
     }
 
     #events-sub {
@@ -453,12 +501,6 @@ footer {
 
     #events-paragraph {
         margin: 0 auto;
-        text-align: center;
-        width: 80%;
-    }
-
-    #hide {
-        display: none;
     }
 
     .contact-icon i {
@@ -498,7 +540,7 @@ footer {
 
 /*----------------------------- Tablet */
 
-@media (max-width : 992px) {
+@media screen and (max-width : 768px) {
 
 /*-------------------------  Header */
 
@@ -531,33 +573,53 @@ footer {
     }
 
     #about {
-        width: 95%;
         height: 600px;
         margin: 0 auto;
         padding: 0;
     }
 
-    .about-left {
+    #about-heading {
+        margin-bottom: 0;
+    }
+
+    #about-p {
         display: flex;
+        flex-direction: column;
+        margin-right: 40px;
+    }
+
+    .about-left {
+        height: 200px;
+        /*display: flex;
         justify-content: center;
         width: 95%;
         padding: 0;
-        margin: 0 auto;
+        margin: 0 auto;*/
+    }
+
+    .about-left p {
+        height: 160px;
+        margin: 0;
     }
 
     .about-right {
-        display: flex;
+        height: 200px;
+        /*display: flex;
         justify-content: center;
         width: 95%;
         padding: 0;
-        margin: 0 0 50px 0;
+        margin: 0 0 50px 0;*/
+    }
+
+    .about-right p {
+        margin: 0;
     }
 
 /*------------------------- Packages section */
 
     #packages {
         width: 100%;
-        height: 1420px;
+        height: 980px;
         margin: 0 auto;
     }
 

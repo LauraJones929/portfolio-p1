@@ -1,6 +1,6 @@
 # Portfolio Project 1 - HTML / CSS
 ## **Jess Hynes Music - Live Site**
-(live website link will go here)
+[View Live Site](https://laurajones929.github.io./portfolio-p1/)
 
 ## **Business Objectives**
 
@@ -9,8 +9,6 @@ For this project I have designed and created a genuine, static website for a pro
 The application is designed to be accessible to all users and responsive to all screen sizes, so that the targeted audience can easily navigate through the site and achieve what they set out to do.
 
 The project's main purpose and focus is to ensure that I successfully complete my first milestone on the Code Institute course. I have used HTML and CSS only as I wanted to build on these skills first, before expanding my knowledge on Bootstrap or any other frameworks.
-
-[View Live Site](https://laurajones929.github.io./portfolio-p1/)
 
 ## Client's Requests
 
@@ -74,4 +72,6 @@ Some other changes that I made compared to the wireframe are as follows:
 - I have embedded 3 iframe videos instead of 5, as I felt 3 looked more pleasing to the eye when in a row.
 - The event services are in a list on a single line (2 lines on smaller screen sizes) rather than in separate paragraphs.
 
+###Features
+##Existing Features
 

@@ -849,12 +849,17 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 /*------------------------- Mobile devices (medium) --*/
 
 /*-- Re-aligns paragraph texts and all features to fit screen size. Contact form is wider for better UX--*/
-@media screen and (max-width : 415px) {
+@media screen and (max-width : 384px) {
 
     .nav-menu {
         width: 250px;
         padding: 0;
-        padding-top: 55px;
+        padding-top: 0;
+    }
+
+    .nav-menu,
+    .title-link {
+        line-height: 13px;
     }
 
     .nav-menu li {
@@ -867,7 +872,7 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 
     #about {
         width: 100%;
-        height: 700px;
+        height: 780px;
         margin: 0;
         padding: 0;
     }
@@ -884,20 +889,20 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 
     .about-left {
         width: 100%;
-        height: 280px;
+        height: 340px;
     }
 
     .about-left p {
-        height: 220px;
+        height: 280px;
     }
 
     .about-right {
         width: 100%;
-        height: 350px;
+        height: 380px;
     }
 
     .about-right p {
-        height: 280px;
+        height: 300px;
     }
 
 /* --------------------- Packages section*/
@@ -908,7 +913,7 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 
     #packages {
         width: 100%;
-        height: 1400px;
+        height: 1500px;
     }
 
     #package-p {
@@ -933,13 +938,13 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
     .package-one-two {
         width: 100%;
         padding: 0;
-        height: 620px;
+        height: 680px;
     }
 
     .package-three-four {
         width: 100%;
         padding: 0;
-        height: 650px;
+        height: 710px;
     }
 
     #events-sub {
@@ -968,8 +973,8 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
         flex-direction: column;
         margin-bottom: 10px;
         padding: 0;
-        height: 350px;
-        width: 410px;
+        height: 300px;
+        width: 370px;
         margin-left: 0;
     }
 

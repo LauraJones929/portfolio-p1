@@ -4,7 +4,7 @@
 a tutor from Code Institute, as well as finding out Stackoverflow forums.*/
 
 /* Fix vertical space appearing to the right when viewing on Dev tools (Chrome).
-Credit to Stackoverflow forums */
+Credit to Stackoverflow forums and Harry Dhillon in Slack Community for advice */
 html,body
     {
     width: 100%;
@@ -849,12 +849,13 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 /*------------------------- Mobile devices (medium) --*/
 
 /*-- Re-aligns paragraph texts and all features to fit screen size. Contact form is wider for better UX--*/
-@media screen and (max-width : 385px) {
+@media screen and (max-width : 475px) {
 
     .nav-menu {
         width: 250px;
         padding: 0;
-        padding-top: 0;
+        padding-top: 60px;
+        padding-left: 0;
     }
 
     .nav-menu,
@@ -913,7 +914,7 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 
     #packages {
         width: 100%;
-        height: 1500px;
+        height: 1430px;
     }
 
     #package-p {
@@ -944,7 +945,7 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
     .package-three-four {
         width: 100%;
         padding: 0;
-        height: 710px;
+        height: 630px;
     }
 
     #events-sub {
@@ -974,7 +975,7 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
         margin-bottom: 10px;
         padding: 0;
         height: 300px;
-        width: 370px;
+        width: 390px;
         margin-left: 0;
     }
 

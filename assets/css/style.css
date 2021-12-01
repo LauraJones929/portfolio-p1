@@ -849,12 +849,12 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 /*------------------------- Mobile devices (medium) --*/
 
 /*-- Re-aligns paragraph texts and all features to fit screen size. Contact form is wider for better UX--*/
-@media screen and (max-width : 475px) {
+@media screen and (max-width : 391px) {
 
     .nav-menu {
         width: 250px;
         padding: 0;
-        padding-top: 60px;
+        padding-top: 0;
         padding-left: 0;
     }
 
@@ -914,7 +914,7 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 
     #packages {
         width: 100%;
-        height: 1430px;
+        height: 1500px;
     }
 
     #package-p {
@@ -945,7 +945,7 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
     .package-three-four {
         width: 100%;
         padding: 0;
-        height: 630px;
+        height: 690px;
     }
 
     #events-sub {
@@ -975,7 +975,7 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
         margin-bottom: 10px;
         padding: 0;
         height: 300px;
-        width: 390px;
+        width: 370px;
         margin-left: 0;
     }
 
@@ -1007,6 +1007,15 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 
     .spacer {
         height: 80px;
+    }
+
+    footer {
+        height: 50px;
+    }
+
+    .social-links i {
+        font-size: 1.2rem;
+        padding-top: 15px;
     }
 
 }

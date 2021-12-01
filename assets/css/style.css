@@ -45,7 +45,8 @@ body {
 .main-image {
     height: 100vh;
     width: 100vw;
-    background: url("../imgs/background/jess.jpeg") no-repeat center center;
+    background: url("../imgs/background/jess-singing.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 .about-image {
@@ -388,6 +389,9 @@ footer {
 
 /*------- Re-aligns 'About' and 'Packages paragraphs, as well as re-aligning iframes from row into column-- */
 @media screen and (max-width : 1200px) {
+
+/*------------------------- Header */
+
     header {
         height: 100px;
     }
@@ -398,8 +402,6 @@ footer {
     #contact {
         padding-top: 40px;
     }
-
-/*------------------------- Header */
 
     .subtitle {
         margin-top: 30px;
@@ -845,6 +847,8 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 }
 
 /*------------------------- Mobile devices (medium) --*/
+
+/*-- Re-aligns paragraph texts and all features to fit screen size. Contact form is wider for better UX--*/
 @media screen and (max-width : 415px) {
 
     .nav-menu {

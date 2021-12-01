@@ -849,7 +849,7 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 /*------------------------- Mobile devices (medium) --*/
 
 /*-- Re-aligns paragraph texts and all features to fit screen size. Contact form is wider for better UX--*/
-@media screen and (max-width : 384px) {
+@media screen and (max-width : 385px) {
 
     .nav-menu {
         width: 250px;

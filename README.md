@@ -24,13 +24,19 @@ In order to create an informative platform, these are the key features that the 
 ## **User Experience (UX)**
 ### User Stories
 - **First Time Visitor Goals**
-  - As a first time visitor, I want to be able to quickly navigate through the site and see what style and aesthetic Jess brings as I'm interested in booking her for my wedding. I also want to easily locate her social media links.
+  - As a first time visitor, I want to be able to quickly navigate through the site and see what style and aesthetic Jess brings as I'm interested in booking her for my wedding.
+  - As a first time visitor, I want to be able to locate Jess' social media links.
+  - As a business owner, I want to allow any potential clients to navigate through my site easily without getting lost or feeling overwhelmed as this could put people off and they may look elsewhere.
 
 - **Returning Visitor Goals**
   - As a returning visitor, I want to find contact information to enquire about prices and availability.
+  - As a first time visitor, I want to find a link to be able to listen to Jess on Spotify or YouTube.
+  - As a business owner, I want to provide social media links that are easy to spot and access.
 
 - **Frequent Visitor Goals**
   - As a frequent visitor, I want to see if there are any new packages available for cooperate events.
+  - As a business owner, I want to update any new videos or package offers onto my website.
+  - As a business owner, I want to be able to receive any queries or messages from potential customers via email.
 
 ### Design
 - **Colour Scheme**
@@ -60,9 +66,11 @@ In order to create an informative platform, these are the key features that the 
 ### Wireframes
 Below are 3 links to show the initial drafts for each screen size. They show how I expect the responsivity between devices to go and how the structure of each page will look.
 
-- [Mobile Wireframe](mobile-wf.md)
-- [Tablet Wireframe](tablet-wf.md)
+The project is designed with a desktop first approach. I felt this was more appropriate as the majority of the clients' bookings are made by businesses or store owners, who are more likely to be working from a desktop. The client has also specified that she will be accessing and managing the website from her own laptop.
+
 - [Desktop Wireframe](desktop-wf.md)
+- [Tablet Wireframe](tablet-wf.md)
+- [Mobile Wireframe](mobile-wf.md)
 
 After initiating the project, I decided that I would no longer have separate pages on the website but instead I will have different sections that are clearly spaced and marked on one page. The user is able to navigate between sections via a fixed navigation menu. As there is not a great deal of text or content within each section, only what is needed, I thought this would be the best approach as separate pages would look too spacey or empty.
 
@@ -72,6 +80,34 @@ Some other changes that I made compared to the wireframe are as follows:
 - I have embedded 3 iframe videos instead of 5, as I felt 3 looked more pleasing to the eye when in a row.
 - The event services are in a list on a single line (2 lines on smaller screen sizes) rather than in separate paragraphs.
 
-###Features
-##Existing Features
+## Features
+### Existing Features
+- Logo - located in the top-left of the header, the logo acts as a link to the homepage. As the header is fixed and visible at all times, the user can use either the logo or the nav menu to go back to the home section (top of the page)
+- Images - Large background images (photographs) will draw the users' attention as they are brightly coloured and bold against the subtleness of the webpage. The images bring a "fun-ness" to the site, creating a positive emotional response.
+- Text - Paragraphs throughout the site provides the user with some basic information about Jess, including her achievements and what she has to offer.
+- Contact icon - An envelope icon is centered half way down the page, below the events services section, so that users can click this icon and be directly taken to the contact form.
+- Videos - YouTube videos that Jess has recorded in her home studio are embedded via iframes, so the user can see what sounds and styles Jess brings to the table.
+- Contact form - A static contact form is in place, currently sourced by HTML and CSS only. After aquiring the skills to enable to me to make this an active form, users will be able to contact Jess via email with any enquiries that they may have.
+- Footer - The footer is fixed so that social media links are visible and accessible at all times. Links are opened in a new tab. Currently the links will only take you to the social platforms home page, eventually I would like to link these up with the clients' social media accounts.
 
+### Features yet to implement
+- The logo is currently made using HTML text and CSS styling. I would like to aquire the skills to design and create a logo so that it could be embedded as an image.
+- I would like to add some sort of interactive system, such as calendly, to select a wedding package and book a date with Jess.
+- The videos as they are now clash quite a bit as they have different images when static. I would like to create an overlay that sits on top of the video, before being interacted with, so that they are of a consistent and common theme and colour, such as a background colour with the title of the song being sang in the video.
+- The contact form currently sends any messages submitted to the CI form dump, this is because this project is purely based on HTML and CSS. I would like to set the form up so that the client can receive emails from users.
+- Verification or feedback for the user after a message has been submitted on the form.
+
+## Technologies Used
+- HTML
+- CSS
+- Hover.css
+- Google Fonts
+- Font Awesome
+- Balsamiq
+- Chrome Dev Tools
+- Github
+- Git
+- Gitpod
+- Multi Device Mockup Generator (techsini)
+- WebAIM Contrast Checker
+- W3C Markup Validator

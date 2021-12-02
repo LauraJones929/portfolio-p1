@@ -98,16 +98,16 @@ Some other changes that I made compared to the wireframe are as follows:
 - Verification or feedback for the user after a message has been submitted on the form.
 
 ## Technologies Used
-- HTML
-- CSS
-- Hover.css
-- Google Fonts
-- Font Awesome
-- Balsamiq
-- Chrome Dev Tools
-- Github
-- Git
-- Gitpod
-- Multi Device Mockup Generator (techsini)
-- WebAIM Contrast Checker
-- W3C Markup Validator
+- HTML - Used to build the main structure of the webpage.
+- CSS - Used to style the content of the webpage.
+- Hover.css - Used in the nav menu and all icons when hovered over (nav menu - bottom border, icons - change of colour)
+- Google Fonts - Imbedded in the CSS, Google fonts are used in the header and body of the project.
+- Font Awesome - Icons used for social media links as well as a link directly to the contact form.
+- Balsamiq - Used to create wireframes for the project.
+- Chrome Dev Tools - Heavily used to fix any spacing issues as well as testing responsivity.
+- Github - To store repositories and codes after being pushed on Gitpod.
+- Git - Used for version control and tracking changes made to files.
+- Gitpod - Used for the workspace for this project.
+- Multi Device Mockup Generator (techsini) - To create an image of what the project will look like on various devices. TechSini.com
+- WebAIM Contrast Checker - To test colours throughout the site for whether or not they will produce good user experience.
+- W3C Markup Validator - To check for any HTML or CSS errors. There were some errors such as open tags or incorrect CSS values. These were all corrected and the project was fortunately left with 0 errors.

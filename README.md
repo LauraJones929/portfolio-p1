@@ -100,7 +100,7 @@ Some other changes that I made compared to the wireframe are as follows:
 ## Technologies Used
 - HTML - Used to build the main structure of the webpage.
 - CSS - Used to style the content of the webpage.
-- Hover.css - Used in the nav menu and all icons when hovered over (nav menu - bottom border, icons - change of colour)
+- Hover.css - Used in the nav menu, submit button and all icons when hovered over (nav menu - bottom border, icons and button - change of colour)
 - Google Fonts - Imbedded in the CSS, Google fonts are used in the header and body of the project.
 - Font Awesome - Icons used for social media links as well as a link directly to the contact form.
 - Balsamiq - Used to create wireframes for the project.

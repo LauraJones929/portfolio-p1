@@ -204,13 +204,13 @@ the nav bar sitting on the right side of header (some custom CSS added) */
 .package-one-two {
     text-align: center;
     width: 40%;
-    height: 680px;
+    /*height: 680px;*/
 }
 
 .package-three-four {
     text-align: center;
     width: 40%;
-    height: 680px;
+    /*height: 680px;*/
 }
 
 .package-one-two,
@@ -280,19 +280,10 @@ a i:hover {
 }
 
 .video {
-    position: relative;
-    padding-top: 25%;
-    height: 0;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 100%;
-    overflow: hidden;
+    margin: 0 10px;
 }
 
 iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
     padding: 7px 7px;
     margin: 5px 0;
     width: 100%;
@@ -303,7 +294,7 @@ iframe {
 
 .contact-form {
     margin: 0 auto;
-    width: 400px;
+    width: 30%;
     text-align: center;
     color: #2f2122;
     background-color: rgba(135, 164, 101, 0.5);
@@ -407,6 +398,10 @@ footer {
         margin-top: 30px;
         margin-bottom: 30px;
     }
+
+    .nav-menu {
+        padding-right: 0;
+    }
     
 /*------------------------- About section */
 
@@ -416,7 +411,7 @@ footer {
 
     #about {
         width: 90%;
-        height: 500px;
+        /*height: 500px;*/
         margin: 0 auto;
         padding: 0;
     }
@@ -425,12 +420,12 @@ footer {
         width: 100%;
         padding: 0;
         margin: 20px;
-        height: 400px;
+        /*height: 400px;*/
     }
 
-    .about-left p {
+    /*.about-left p {
         height: 270px;
-    }
+    }*/
 
     .about-right {
         width: 100%;
@@ -442,7 +437,7 @@ footer {
 
     #packages {
         width: 100%;
-        height: 900px;
+        /*height: 900px;*/
         margin: 0 auto;
     }
 
@@ -454,10 +449,10 @@ footer {
         display: none;
     }
 
-    .package-one-two,
+    /*.package-one-two,
     .package-three-four {
         height: 750px;
-    }
+    }*/
 
     #events-sub {
         height: 80px;
@@ -477,28 +472,21 @@ footer {
         height: auto;
     }
 
-    .video-row {
+    /*.video-row {
         display: inline-block;
-    }
+    }*/
 
     .video {
-        position: static;
-        margin: 0 0 0 120px;
+        margin: 0 10px;
         padding: 10px;
-        height: 500px;
-        width: 700px;
+        height: 15rem;
+        width: 100%;
         text-align: center;
     }
 
-    .video iframe {
-        position: static;
+    .contact-form {
+        width: 40%;
     }
-
-/*------------------------- Contact section */
-
-    #contact {
-        bottom: 200px;
-    }   
 }
 
 
@@ -527,6 +515,7 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
     }
 
     .nav-menu {
+        font-size: 0.9rem;
         margin-right: 0;
     }
 
@@ -540,7 +529,7 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
     }
 
     #about {
-        height: 600px;
+        /*height: 600px;*/
         margin: 0 auto;
         padding: 0;
     }
@@ -555,18 +544,18 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
         margin-right: 40px;
     }
 
-    .about-left {
+    /*.about-left {
         height: 200px;
-    }
+    }*/
 
     .about-left p {
-        height: 160px;
+        /*height: 160px;*/
         margin: 0;
     }
 
-    .about-right {
+    /*.about-right {
         height: 200px;
-    }
+    }*/
 
     .about-right p {
         margin: 0;
@@ -576,7 +565,6 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 
     #packages {
         width: 100%;
-        height: 1400px;
         margin: 0 auto;
     }
 
@@ -600,13 +588,13 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
         width: 90%;
     }
 
-    .package-one-two {
+    /*.package-one-two {
         height: 550px;
     }
 
     .package-three-four {
         height: 630px;
-    }
+    }*/
 
     #events-paragraph {
         width: 70%;
@@ -618,29 +606,28 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
 
     /*------------------------- Videos section */
 
+    #music-sub {
+        margin: 0;
+    }
+
     #music {
         height: auto;
         }
     
     .video-row {
         display: inline-block;
+        justify-content: center;
+        margin-left: 25%;
+        margin-right: 25%;
     }
     
     .video {
-        position: static;
-        margin: 0 0 0 20px;
+        margin: 20px 0;
         padding: 10px;
-        height: 500px;
-        width: 700px;
-        text-align: center;
-    }
-    
-    .video iframe {
-        position: static;
     }
 
-    .spacer {
-        height: 150px;
+    .contact-form {
+        width: 50%;
     }
 }
 
@@ -684,7 +671,7 @@ Header height and font sizes, and footer icons become smaller. Iframes become fu
     }
     
     .nav-menu li {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     /*------------------------- About section */

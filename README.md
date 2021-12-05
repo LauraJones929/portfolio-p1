@@ -184,3 +184,7 @@ After further testing on different screens, I can confidently say that the subti
 
 I used the [W3C Markup Validation](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure that there were no syntax errors throughout the project.
 
+- [W3C Markup Results](readme-docs/testing/w3c-markup.png)
+- [W3C CSS Results](readme-docs/testing/w3c-css.png)
+
+## User Story Testing

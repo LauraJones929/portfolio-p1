@@ -8,11 +8,11 @@ For this project I have designed and created a genuine, static website for a pro
 
 The application is designed to be accessible to all users and responsive to all screen sizes, so that the targeted audience can easily navigate through the site and achieve what they set out to do.
 
-The project's main purpose and focus is to ensure that I successfully complete my first milestone on the Code Institute course. I have used HTML and CSS only as I wanted to build on these skills first, before expanding my knowledge on Bootstrap or any other frameworks.
+The project's main purpose and focus is to ensure that I successfully complete my first milestone on the Code Institute Web Development course. I have used HTML and CSS only as I wanted to build on these skills first, before expanding my knowledge on Bootstrap or any other frameworks.
 
-![Homepage Mockup](assets/imgs/mockups/homepage.png)
+![Homepage Mockup](readme-docs/mockups/homepage.png)
 
-## Client's Requests
+## **Client's Requests**
 
 Since the pandemic restrictions have been lifted, Jess has a heavy number of enquiries coming in and an even larger number of people wanting to book her in. As Jess has always taking bookings and enquiries on her mobile phone, she is now struggling to keep track of her schedule and needs a platform that is more accessible and appropriate for managing her business.
 
@@ -20,11 +20,11 @@ In order to create an informative and effective platform, these are the key feat
 - an 'About Me' section - this gives a detailed insight into who Jess Hynes is and what skills she possesses.
 - media (images and videos) - these are displayed throughout the website. Embedded YouTube videos as well as background images to add the desired aesthetic. *Images/videos are credited and sourced throughout.*
 - a list of packages - this informs potential clients/customers of Jess' packages that she has to offer.
-- a contact form - to allow potential clients/customers to get in touch with any enquiries that they may have. *As this project is HTML/CSS focused, the form is static until I have aquired further skills in order to be able to script in the necessary attributes and coding to send form input to a specific destination.*
+- a contact form - to allow potential clients/customers to get in touch with any enquiries that they may have. *As this project is HTML/CSS focused, the form is static and will send any messages submitted to the Code Institure form dump, until I have aquired further skills in order to be able to script in the necessary attributes and coding to send form input to a specific destination.*
 - social media links available at all times throughout site - this allows users to access Jess' social platforms if desired.
 
 ## **User Experience (UX)**
-### User Stories
+## User Stories
 - **First Time Visitor Goals**
   - As a first time visitor, I want to be able to quickly navigate through the site and see what style and aesthetic Jess brings as I'm interested in booking her for my wedding.
   - As a first time visitor, I want to be able to locate Jess' social media links.
@@ -40,7 +40,7 @@ In order to create an informative and effective platform, these are the key feat
   - As a business owner, I want to update any new videos or package offers onto my website.
   - As a business owner, I want to be able to receive any queries or messages from potential customers via email.
 
-### Design
+## Design
 - **Colour Scheme**
 
 Colour contrast checks were made throughout the process of building the project to save going back and re-doing colours that did not work together.
@@ -69,7 +69,7 @@ Colour contrast checks were made throughout the process of building the project 
 
   Videos that the client has recorded in her home studio have been embedded via iframe elements, sourced by YouTube. The videos respond to screen sizes so that they fill the screen width on smaller devices, and maintain an evenly spaced row on larger devices.
 
-### Wireframes
+## **Wireframes**
 Below are 3 links to show the initial drafts for each screen size. They show how I expect the responsivity between devices to go and how the structure of each page will look.
 
 The project is designed with a desktop first approach. I felt this was more appropriate as the majority of the clients' bookings are made by businesses or store owners, who are more likely to be working from a desktop. The client has also specified that she will be accessing and managing the website from her own laptop.
@@ -84,30 +84,30 @@ Some other changes that I made compared to the wireframe are as follows:
 - The text on each page does not overlay the background image. The background images now have their own section as I felt the overlaying would look too busy, and would not match the desired effect of subtlety.
 - The textbox in the contact form is now under the name and email address input area, rather than to the right side of them.
 - I have embedded 3 iframe videos instead of 5, as I felt 3 looked more pleasing to the eye when in a row.
-- The event services are in a list on a single line (2 lines on smaller screen sizes) rather than in separate paragraphs.
+- The event services are in a list on a single line (2 lines on smaller screen sizes) and positioned below the wedding packages, rather than in separate paragraphs.
 
-![Various Mockups](assets/imgs/mockups/various.png)
+![Various Mockups](readme-docs/mockups/various.png)
 
-## Features
+## **Features**
 ### Existing Features
 - Logo - located in the top-left of the header, the logo acts as a link to the landing page. As the header is fixed and visible at all times, the user can use either the logo or the nav menu to go back to the home section (top of the page)
 
-![Logo](assets/imgs/features/logo.png)
+![Logo](readme-docs/features/logo.png)
 
 
 - Navigation bar - Sticks to the right side of the header which is fixed to the top of the page at all times. As this is a one page website, this will make it easier for users rather than having to scroll between in section.
 Hover effect creates a bottom border with a green colour to match the green colour that is often used throughout the page.
 
-![Navbar](assets/imgs/features/navbar.png)
+![Navbar](readme-docs/features/navbar.png)
 
 - Landing Page - On first entering the site, users will be drawn to hero image of the singer. This image uses warm colours and has a 'friendly' feel to it that invites the users in. From here they can easily navigate the site via the navigation menu or by scrolling.
 - Images - Large background images (photographs) will draw the users' attention as they are brightly coloured and bold against the subtleness of the webpage. The images bring a "fun-ness" to the site, creating a positive emotional response.
 - Text - Paragraphs throughout the site provides the user with some basic information about Jess, including her achievements and what she has to offer.
 - Contact icon - An envelope icon is centered half way down the page, below the events services section, so that users can click this icon and be directly taken to the contact form.
 - Videos - YouTube videos that Jess has recorded in her home studio are embedded via iframes, so the user can see what sounds and styles Jess brings to the table.
-- Contact form - A static contact form is in place, currently sourced by HTML and CSS only. After aquiring the skills to enable to me to make this an active form, users will be able to contact Jess via email with any enquiries that they may have.
+- Contact form - A static contact form is in place, currently sourced by HTML and CSS only. Any message submitted currently will be posted to the Code Institute form dump. After aquiring the skills to enable to me to make this an active form, users will be able to contact Jess via email with any enquiries that they may have.
 
-![Contact form and Footer](assets/imgs/features/footer.png)
+![Contact form and Footer](readme-docs/features/footer.png)
 
 - Footer - The footer is fixed so that social media links are visible and accessible at all times. Links are opened in a new tab. Currently the links will only take you to the social platforms home page, eventually I would like to link these up with the clients' social media accounts.
 
@@ -118,7 +118,7 @@ Hover effect creates a bottom border with a green colour to match the green colo
 - The contact form currently sends any messages submitted to the CI form dump, this is because this project is purely based on HTML and CSS. I would like to set the form up so that the client can receive emails from users.
 - Verification or feedback for the user after a message has been submitted on the form.
 
-## Technologies Used
+## **Technologies Used**
 ### Languages
 - HTML - Used to build the main structure of the webpage.
 - CSS - Used to style the content of the webpage.
@@ -136,11 +136,11 @@ Hover effect creates a bottom border with a green colour to match the green colo
 - WebAIM Contrast Checker - To test colours throughout the site for whether or not they will produce good user experience.
 - W3C Markup Validator - To check for any HTML or CSS errors. There were some errors such as open tags or incorrect CSS values. These were all corrected and the project was fortunately left with 0 errors.
 
-## Testing
+## **Testing**
 
 Most testing was carried out via Google Chrome browser and the Chrome Dev Tools for responsivity and colour contrast checking, throughout the process of building the project. I also tested the site on an iPhone 12 for responsivity, this included Google Chrome which showed no errors, and on Safari which did show some issues regarding the background images that would often stick when scrolling. Additional testing was carried out which I will include below.
 
-### Manual Testing
+## Manual Testing
 
 - Navigation 
   - All navigation links take user to the correct section within the page.
@@ -164,7 +164,23 @@ Most testing was carried out via Google Chrome browser and the Chrome Dev Tools 
 - Contact Form
   - All input elements that have the required attribute are working as they should.
   - The email address input element requires an @ for it to be valid.
-  - The submit button is clickable. *Once I have aquired the skills to do so, I will create feedback of some sort that lets the user know that their message has been successfully sent.*
+  - An error message appears if the inputs fields are not filled out appropriately.
+  - The page refreshes when the form has been filled out correctly and the submit button clicked.
+  - The submit button is clickable. *Once I have aquired the skills to do so, I will create a modal or feedback of some sort that lets the user know that their message has been successfully sent.*
 
 - Social Media Links
   - All icons are clickable and take the user directly to the homepage of the specified social media platform. *These will be linked up to the clients' own business social media accounts once the website is made to be genuine and accessible for the client.*
+  - All href links have been entered correctly.
+  - Links open a new tab successfully.
+
+As well as Google Chrome and Safari, I have also tested the site on Firefox and Microsoft Edge. No issues or errors were identified and all content responded to different screen sizes as intended.
+
+## Additional Testing
+
+I used the [a11y Contrast Checker](https://color.a11y.com/Contrast/) to test all colours throughout the project. As you can see there has been one problem detected with the soft green colour I used for my h5 subtitles, the 'Music' text in the logo and the background colour of the contact form. I am happy to leave these colours as they are as I want to create a soft, subtle look to the entire site. By changing this soft, green tone to a more contrasting and vibrant tone, I fear that the intended look will be lost.
+After further testing on different screens, I can confidently say that the subtitles are easily read-able, and the form is easily seen, and are not at all lost in the background colour.
+
+![Colour Contrast Checker](readme-docs/testing/colour-contrast.png)
+
+I used the [W3C Markup Validation](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure that there were no syntax errors throughout the project.
+

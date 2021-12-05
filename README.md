@@ -188,3 +188,27 @@ I used the [W3C Markup Validation](https://validator.w3.org/) and the [W3C CSS V
 - [W3C CSS Results](readme-docs/testing/testing-docs/w3c-css.png)
 
 ## User Story Testing
+
+[User Story Testing](/readme-docs/testing/user-stories/md)
+
+## Known Bugs and Fixes
+
+- During the process of building my project, I couldn't help but notice a vertical white space down the right side of the page (top to bottom), this was affecting the content and creating spacing and alignment issues.
+  - After doing some research online and speaking with a tutor, this was resolved using the following code:
+  
+    *Credits are included in the CSS comments and in the Credits section of the README file.*
+
+    ![Code to fix whitespace](readme-docs/whitespace.png)
+
+    *HTML lines 6-12*
+
+- When using the W3C Markup Validator, I received multipe warnings stating that the comments in my HTML code had more than 2 hyphens "!--------".
+  - This was resolved by removing the hyphens and leaving only 2 before and after the comment.
+
+- An attribute of rel="noopener" was given to all untrusted external links, to improve best practise.
+
+- As the footer is fixed to the bottom of the page, this meant that the bottom of the contact page would become hidden by the footer.
+  - This was resolved by creating a spacer div and adjusting the height accordingly with the different screen sizes.
+
+- When creating the media queries I could not understand why the the responsivity was poor and the text was overlapping each other quite quickly when using Chrome Dev Tools to test.
+  - After speaking about this with my mentor, Felipe Souza Alarcon, he recommended that I don't use fixed heights for some of the elements, including the divs that were overlapping. Once I had gone back through the CSS and changed the height and width of certain elements, the problem was resolved.

@@ -139,3 +139,32 @@ Hover effect creates a bottom border with a green colour to match the green colo
 ## Testing
 
 Most testing was carried out via Google Chrome browser and the Chrome Dev Tools for responsivity and colour contrast checking, throughout the process of building the project. I also tested the site on an iPhone 12 for responsivity, this included Google Chrome which showed no errors, and on Safari which did show some issues regarding the background images that would often stick when scrolling. Additional testing was carried out which I will include below.
+
+### Manual Testing
+
+- Navigation 
+  - All navigation links take user to the correct section within the page.
+  - All navigation links have a green underline and a bolder text when hovered over.
+  - Clicking the logo takes user back to the landing page.
+  - Navbar stays to the right of the header and responds well to different screen sizes.
+
+- Events List
+  - The dashes between each list item disappears when viewing on a mobile, as the list items are being displayed as columns.
+
+- Contact Icon
+  - Clicking the icon takes users directly to the contact form.
+  - Changes size to suit different screen sizes.
+
+- Iframes/Videos
+  - Videos do not play automatically when first entering the site.
+  - Videos play with no errors when clicked.
+  - Full screen option is enabled and works with no issues.
+  - Responsive with different screen sizes. Videos are displayed in a row for larger screen sizes and columns for smaller sizes.
+
+- Contact Form
+  - All input elements that have the required attribute are working as they should.
+  - The email address input element requires an @ for it to be valid.
+  - The submit button is clickable. *Once I have aquired the skills to do so, I will create feedback of some sort that lets the user know that their message has been successfully sent.*
+
+- Social Media Links
+  - All icons are clickable and take the user directly to the homepage of the specified social media platform. *These will be linked up to the clients' own business social media accounts once the website is made to be genuine and accessible for the client.*

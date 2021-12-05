@@ -74,9 +74,9 @@ Below are 3 links to show the initial drafts for each screen size. They show how
 
 The project is designed with a desktop first approach. I felt this was more appropriate as the majority of the clients' bookings are made by businesses or store owners, who are more likely to be working from a desktop. The client has also specified that she will be accessing and managing the website from her own laptop.
 
-- [Desktop Wireframe](desktop-wf.md)
-- [Tablet Wireframe](tablet-wf.md)
-- [Mobile Wireframe](mobile-wf.md)
+- [Desktop Wireframe](readme-docs/wireframes/desktop-wf.md)
+- [Tablet Wireframe](readme-docs/wireframes/tablet-wf.md)
+- [Mobile Wireframe](readme-docs/wireframes/mobile-wf.md)
 
 After initiating the project, I decided that I would no longer have separate pages on the website but instead I will have different sections that are clearly spaced and marked on one page. The user is able to navigate between sections via a fixed navigation menu. As there is not a great deal of text or content within each section, only what is needed, I thought this would be the best approach as separate pages would look too spacey or empty.
 
@@ -180,11 +180,11 @@ As well as Google Chrome and Safari, I have also tested the site on Firefox and 
 I used the [a11y Contrast Checker](https://color.a11y.com/Contrast/) to test all colours throughout the project. As you can see there has been one problem detected with the soft green colour I used for my h5 subtitles, the 'Music' text in the logo and the background colour of the contact form. I am happy to leave these colours as they are as I want to create a soft, subtle look to the entire site. By changing this soft, green tone to a more contrasting and vibrant tone, I fear that the intended look will be lost.
 After further testing on different screens, I can confidently say that the subtitles are easily read-able, and the form is easily seen, and are not at all lost in the background colour.
 
-![Colour Contrast Checker](readme-docs/testing/colour-contrast.png)
+![Colour Contrast Checker](readme-docs/testing/testing-docs/colour-contrast.png)
 
 I used the [W3C Markup Validation](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to ensure that there were no syntax errors throughout the project.
 
-- [W3C Markup Results](readme-docs/testing/w3c-markup.png)
-- [W3C CSS Results](readme-docs/testing/w3c-css.png)
+- [W3C Markup Results](readme-docs/testing/testing-docs/w3c-markup.png)
+- [W3C CSS Results](readme-docs/testing/testing-docs/w3c-css.png)
 
 ## User Story Testing

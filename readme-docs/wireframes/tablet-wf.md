@@ -1,7 +1,7 @@
 # Tablet
 
 ## Home
-![Homepage wireframe](assets/imgs/tablet-wf/homepage.png)
+![Landing Page wireframe](assets/imgs/tablet-wf/homepage.png)
 *The header, navigation menu and footer take up more screen space on the home page as there is less content. Users can easily find the page that they are looking for and social links are more apparent.*
 
 ## About

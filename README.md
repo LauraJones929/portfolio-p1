@@ -31,7 +31,7 @@ In order to create an informative and effective platform, these are the key feat
   - As a business owner, I want to allow any potential clients to navigate through my site easily without getting lost or feeling overwhelmed as this could put people off and they may look elsewhere.
 
 - **Returning Visitor Goals**
-  - As a returning visitor, I want to find contact information to enquire about prices and availability.
+  - As a returning visitor, I want to be able to contact Jess to enquire about prices and availability.
   - As a first time visitor, I want to find a link to be able to listen to Jess on Spotify or YouTube.
   - As a business owner, I want to provide social media links that are easy to spot and access.
 

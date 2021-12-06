@@ -189,7 +189,7 @@ I used the [W3C Markup Validation](https://validator.w3.org/) and the [W3C CSS V
 
 ## User Story Testing
 
-[User Story Testing](/readme-docs/testing/user-stories/md)
+[User Story Testing](/readme-docs/testing/user-stories.md)
 
 ## Known Bugs and Fixes
 

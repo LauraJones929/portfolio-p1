@@ -20,7 +20,6 @@ body {
 }
 
 .subtitle {
-    padding-bottom: 50px;
     padding-top: 25px;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
@@ -61,7 +60,6 @@ header {
     width: 100vw;
     height: 100px;
     position: fixed;
-    top: 0;
 }
 
 .title-link {
@@ -82,7 +80,6 @@ header {
     color: #2f2822;
     padding-left: 60px;
     position: relative;
-    display: inline-block;
 }
 
 .name-line {
@@ -99,7 +96,7 @@ header {
     font-size: 25px;
     font-weight: 200;
     padding-left: 85px;
-    bottom: 80px;
+    bottom: 75px;
     position: relative;
 }
 
@@ -109,9 +106,8 @@ header {
 for the idea of thenav bar sitting on the right side of header (custom CSS added) */
 .nav-menu {
     float: right;
-    margin: 0 auto;
+    margin: 0 20px 0 0;
     padding: 20px;
-    margin-right: 30px;
 }
 
 .nav-menu li {
@@ -163,24 +159,14 @@ for the idea of thenav bar sitting on the right side of header (custom CSS added
     margin-bottom: 40px;
 }
 
-.about-left {
-    text-align: center;
-    margin: 0 20px;
-    padding: 10px 20px;
-}
-
-.about-left p {
-    padding: 20px;
-    background-color: rgba(36, 109, 17, 0.05);
-    border-radius: 2px;
-}
-
+.about-left,
 .about-right {
     text-align: center;
     margin: 0 20px;
     padding: 10px 20px;
 }
 
+.about-left p,
 .about-right p {
     padding: 20px;
     background-color: rgba(36, 109, 17, 0.05);
@@ -189,11 +175,6 @@ for the idea of thenav bar sitting on the right side of header (custom CSS added
 
 /*---------------------------------- Packages Section */
 
-.events-sub {
-    clear: both;
-    margin-bottom: 0;
-}
-
 #package-p {
     display: flex;
     flex-direction: row;
@@ -201,11 +182,7 @@ for the idea of thenav bar sitting on the right side of header (custom CSS added
     margin-bottom: 40px;
 }
 
-.package-one-two {
-    text-align: center;
-    width: 40%;
-}
-
+.package-one-two,
 .package-three-four {
     text-align: center;
     width: 40%;
@@ -224,12 +201,12 @@ for the idea of thenav bar sitting on the right side of header (custom CSS added
     padding-bottom: 20px;
 }
 
-.events-list li {
-    display: inline;
-}
-
 .events-list {
     text-align: center;
+}
+
+.events-list li {
+    display: inline;
 }
 
 #events-paragraph ul {
@@ -258,28 +235,15 @@ a i:hover {
 
 /*---------------------------------- Music section */
 
-#music {
-    height: auto;
-    width: 100%;
-}
-
-#music-sub {
-    padding-top: 30px;
-}
-
 .video-row {
     display: flex;
     flex-direction: row;
     place-content: space-evenly;
 }
 
-.video {
-    margin: 0 10px;
-}
-
 iframe {
     padding: 7px 7px;
-    margin: 5px 0;
+    margin: 30px 0;
     width: 100%;
     height: 100%;
 }
@@ -291,7 +255,6 @@ The idea for the style and layout was taken from the Love Running Project. Custo
 .contact-form {
     margin: 0 auto;
     width: 30%;
-    text-align: center;
     background-color: rgba(135, 164, 101, 0.5);
     text-align: left;
     padding: 30px;
@@ -302,7 +265,6 @@ input[type=email],
 textarea {
     background-color: #fafafa;
     color: #2f2822;
-    height: 25px;
     margin: 5px 0 20px 0;
     padding: 20px;
     border: #2f2822 1px solid;
@@ -324,7 +286,7 @@ textarea {
 .submit-button {
     font-family: inherit;
     background-color: #fafafa;
-    color: #161212;
+    color: #2f2822;
     border: #2f2822 solid thin;
     border-radius: 2px;
     padding: 7px;
@@ -343,7 +305,6 @@ footer {
     opacity: 60%;
     position: fixed;
     bottom: 0;
-    width: 100%
 }
 
 .footer-row {
@@ -353,7 +314,6 @@ footer {
 }
 
 .social-links i {
-    margin: 0 auto;
     padding-top: 30px;
     font-size: 2rem;
     color: rgba(86, 87, 82, 1);
@@ -381,13 +341,6 @@ hover effect for social media icons-----*/
 
 /*------------------------- Header */
 
-    #about,
-    #packages,
-    #music,
-    #contact {
-        padding-top: 40px;
-    }
-
     .nav-menu {
         padding-right: 0;
     }
@@ -398,17 +351,7 @@ hover effect for social media icons-----*/
         margin-bottom: 0;
     }
 
-    #about {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    .about-left {
-        width: 100%;
-        padding: 0;
-    }
-
+    .about-left,
     .about-right {
         width: 100%;
         padding: 0;
@@ -438,23 +381,15 @@ hover effect for social media icons-----*/
 
 /*------------------------- Videos section */
 
-    #music {
-        height: auto;
-    }
-
     .video {
         margin: 0 10px;
         padding: 10px;
-        height: 15rem;
-        width: 100%;
-        text-align: center;
     }
 
     .contact-form {
         width: 40%;
     }
 }
-
 
 /*----------------------------- Tablet */
 
@@ -465,7 +400,7 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
 /*-------------------------  Header */
 
     header {
-        height: 100px;
+        height: 80px;
     }
 
     #name-title {
@@ -495,12 +430,7 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
     }
 
     #about {
-        margin: 0 auto;
         padding: 0;
-    }
-
-    #about-heading {
-        margin-bottom: 0;
     }
 
     #about-p {
@@ -509,33 +439,17 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
         margin-right: 40px;
     }
 
-    .about-left p {
-        margin: 0;
-    }
-
+    .about-left p,
     .about-right p {
         margin: 0;
     }
 
 /*------------------------- Packages section */
 
-    #packages {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .subtitle {
-        padding-bottom: 20px;
-    }
-
     #package-p {
         display: flex;
         flex-direction: column;
         margin-left: 35px;
-    }
-
-    .package-spacer {
-        display: none;
     }
 
     .package-one-two,
@@ -566,15 +480,15 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
     }
     
     .video {
-        margin: 20px 0;
-        padding: 10px;
+        height: 15rem;
+        width: 100%;
+        margin: 0 0 20px;
     }
 
     .contact-form {
         width: 50%;
     }
 }
-
 
 /*----------------------------- Mobile devices */
 
@@ -585,7 +499,7 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
 /*-------------------------  Header */
 
     header {
-        height: 80px;
+        height: 70px;
     }
 
     #name-title {
@@ -605,7 +519,6 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
     }
 
     .nav-menu {
-        float: right;
         padding: 50px 5px 0 0;
     }
 
@@ -620,7 +533,6 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
     /*------------------------- About section */
 
     .green-sub {
-        margin-bottom: 0;
         font-size: 22px;
     }
 
@@ -630,41 +542,23 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
         margin-right: 0;
     }
 
-    .about-left,
-    .about-right {
-        width: 100%;
-        margin: 0;
-    }
-
     .about-left p,
     .about-right p {
-        padding: 30px;
+        margin-right: 40px;
     }
 
 /*------------------------- Packages section */
 
     #packages {
-        width: 100%;
-        margin: 0 auto;
         padding-top: 0;
     }
 
     #package-p {
-        display: flex;
-        flex-direction: column;
         margin: 0 20px 0 0;
-    }
-
-    .subtitle {
-        padding-bottom: 20px;
     }
 
     #packages h5 {
         margin: 10px 0;
-    }
-
-    .package-spacer {
-        display: none;
     }
 
     .package-one-two,
@@ -672,16 +566,7 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
         padding: 0 30px;
     }
 
-    #event-services {
-        margin-top: 10px;
-    }
-
-    #events-list {
-        margin-bottom: 0;
-    }
-
     #events-paragraph {
-        margin: 0 auto;
         width: 90%;
     }
 
@@ -691,28 +576,16 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
 
     /*------------------------- Videos section */
 
-    #music-sub {
-        margin-top: 0;
-    }
-
     .video-row {
         margin-left: 7%;
     }
     
     .video {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 10px;
         width: 80vw;
         height: 50vh;
     }
 
 /*------------------------- Contact section */
-
-    .contact-form {
-        margin: 0 auto;
-        width: 300px;
-    }
 
     input[type=text],
     input[type=email],
@@ -736,23 +609,17 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
     }
 
     .social-links i {
-        margin: 0 auto;
         padding-top: 20px;
         font-size: 1.5rem;
     }
-
 }
 
 /*------------------------- Mobile devices (medium) --*/
 
 /*-- Re-aligns paragraph texts and all features to fit screen size. Contact form is wider for better UX--*/
-@media screen and (max-width : 414px) {
+@media screen and (max-width : 415px) {
     
     /* --------------------- Header*/
-
-    header {
-        height: 70px;
-    }
 
     #name-title {
         font-size: 20px;
@@ -773,15 +640,10 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
     }
 
     .nav-menu li {
-        font-size: 10px;
         margin: 0;
     }
 
 /* --------------------- About section*/
-
-    #about-heading {
-        margin-top: 20px;
-    }
 
     .about-left p,
     .about-right p {
@@ -789,10 +651,6 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
     }
 
 /* --------------------- Packages section*/
-
-    .events-sub {
-        margin: 20px 0;
-    }
 
     #package-p {
         margin: 0;
@@ -806,11 +664,7 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
         padding: 0 20px;
     }
 
-    .package-one-two {
-        width: 100%;
-        padding: 0;
-    }
-
+    .package-one-two,
     .package-three-four {
         width: 100%;
         padding: 0;
@@ -828,22 +682,19 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
 /* --------------------- Video section*/
 
     .video {
-        height: 30vh;
+        height: 35vh;
     }
 
 /* --------------------- Contact form*/
 
     .contact-form {
-        margin-top: 20px;
         width: 250px;
     }
 
     input[type=text],
     input[type=email],
     textarea {
-        height: 5px;
         padding: 15px;
-        width: 85%;
         margin-bottom: 10px;
         font-size: 13px;
     }
@@ -878,7 +729,7 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
     }
 
     .green-sub {
-        margin-top: 0;
+        margin-top: 20px;
         padding: 10px 0;
         font-size: 18px;
     }
@@ -890,7 +741,6 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
     }
 
     .nav-menu {
-        padding: 0;
         padding-top: 50px;
     }
 
@@ -904,15 +754,7 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
         padding: 0 10px;
     }
 
-    .events-sub {
-        margin: 20px 0;
-    }
-
-    #event-services {
-        margin-top: 0;
-    }
-
-/* --------------------- Music Section*/
+/*---------------------- Music Section*/
 
     #music {
         padding-top: 0;
@@ -920,11 +762,6 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
 
     .video-row {
         margin-left: 4%;
-    }
-
-    .video {
-        height: 100%;
-        margin-top: 0;
     }
 
 /* --------------------- Contact form*/

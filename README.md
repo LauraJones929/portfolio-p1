@@ -212,3 +212,62 @@ I used the [W3C Markup Validation](https://validator.w3.org/) and the [W3C CSS V
 
 - When creating the media queries I could not understand why the the responsivity was poor and the text was overlapping each other quite quickly when using Chrome Dev Tools to test.
   - After speaking about this with my mentor, Felipe Souza Alarcon, he recommended that I don't use fixed heights for some of the elements, including the divs that were overlapping. Once I had gone back through the CSS and changed the height and width of certain elements, the problem was resolved.
+
+## Deployment
+
+This project was created using Gitpod, which enabled me to stage and commit the files via Git (version control) and pushed into the respository on Github.
+
+### To **deploy** the project on Github:
+- Select the repository you wish to deploy.
+- Click the *Settings* tab within that repository.
+- In the *Settings*, scroll down and select *Pages*.
+- In the *Source* section, click *Branch* and select the *main* option, click *Save*.
+- The URL for the deployed project is now saved in *Pages*.
+
+### Forking the Github Repository:
+Choose to fork the repository by making a copy. You can then make changes to the copy without it affecting the original repository. 
+- Select the repository you wish to fork.
+- In the top right corner of the page (under your account icon) there will be an option to *Fork*.
+- By selecting *Fork* you will now have a copy of the respository in your own Github account.
+
+### Cloning the Github Repository:
+- Select the repository you wish to clone locally.
+- Above the files, locate the *Code* dropdown menu.
+- Select and copy the link appropriately (*HTTPS, SSH, Github CLI*).
+- Open the terminal and change the directory to where you want the cloned version to be located.
+- Type *git clone* and paste the copied link.
+- Press *Enter* to create local clone.
+
+## Credits
+
+### Code
+- Stackoverflow Forums
+  - As stated in the comments of the CSS file *(lines 4-5)*, for providing a solution to fix an issue regarding white space down the right side of the page.
+
+- Brian, Program Director, Code Institute
+  - For giving me the idea to have the navbar on the right side of the header (custom CCS used).
+
+- Matt Rudge, Code Institute
+  - For providing me the idea to use a hover effect on icons. I used this effect on the contact icon and social media icons (custom CSS styling was used).
+  - The idea for the style and layout for the contact form was inspired by the Love Running Project. Again, I used custom CSS styling.
+
+- Maggie Walsh (fellow Stack member)
+  - For sharing advice with members regarding the basic structure of a README.md file.
+
+### Media
+- Jess Hynes (client)
+  - Providing the photographic images to use as hero images.
+  - Providing permission to use YouTube links to videos that she has recorded and uploaded from her home studio.
+
+### Acknowledgements
+- Code Institue Tutors
+  - For showing me guidance when using the display attribute to align content in rows and columns, so that it is spaced evenly across the page.
+- Felipe Souza Alarcon, my Code Institute mentor throughout the course
+  - For continous support and professional guidance during the process of building my project.
+- Fellow Slack Community members
+  - For responding when in times of need.
+
+  ## Personal Development
+
+  Following a session with my Code Institute mentor, I have noted that for future projects I will pay extra attention to how I am writing up CSS code, so that I don't end up with repetitive, unnecessary lines of code.
+  In the meantime I am going to research different methods and ways of creating effective code that does not use a large amount of lines within the CSS file.

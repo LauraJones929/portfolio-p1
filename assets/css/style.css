@@ -19,7 +19,6 @@ body {
     line-height: 30px;
 }
 
-/* ------------------------- styles all subtitles throughout the page, h2 and h5--*/
 .subtitle {
     padding-bottom: 50px;
     padding-top: 25px;
@@ -29,7 +28,6 @@ body {
     letter-spacing: 5px;
 }
 
-/* ------------------------- styles all h2 subtitles throughout the page--*/
 .green-sub {
     color: rgba(36, 109, 17, 0.57);
 }
@@ -40,6 +38,7 @@ body {
 
 /*---------------------------------- Background Images */
 
+/*--Credits: Photos provided by Jess Hynes--*/
 .main-image {
     height: 100vh;
     width: 100vw;
@@ -94,7 +93,6 @@ header {
     left: 20%;
 }
 
-/*---------------------- this allows the 'Music' title to sit under the 'Jess Hynes' title giving it a logo effect --*/
 #music-title {
     font-family: "Raleway", sans-serif;
     color: rgba(36, 109, 17, 1);
@@ -107,7 +105,8 @@ header {
 
 /*----------------------- nav bar --*/
 
-/* Credit goes to Code Institute, Love Running Project, for the nav bar sitting on the right side of header (some custom CSS added) */
+/* Credit goes to Code Institute, Love Running Project, 
+for the idea of thenav bar sitting on the right side of header (custom CSS added) */
 .nav-menu {
     float: right;
     margin: 0 auto;
@@ -248,12 +247,11 @@ header {
     margin-bottom: 30px;
 }
 
-/*-- Font Awesome icon (envelope) directing user straight to contact form when clicked-----*/
 a i {
     color:rgba(36, 109, 17, 0.57);
     font-size: 25px;
 }
-
+/*-- Credit to Matt Rudge, Code Institute for the idea on the hover effect for icons-----*/
 a i:hover {
     color: rgba(86, 87, 82, 0.49);
 }
@@ -288,6 +286,8 @@ iframe {
 
 /*---------------------------------- Form */
 
+/*---- Credit to Matt Rude, Code Institute for the inspiration for this contact form.
+The idea for the style and layout was taken from the Love Running Project. Custom CSS styling used---*/
 .contact-form {
     margin: 0 auto;
     width: 30%;
@@ -363,6 +363,8 @@ footer {
     text-decoration: none;
 }
 
+/*-- Credit to Matt Rudge, Code Institute for the idea on the 
+hover effect for social media icons-----*/
 .social-links a:hover {
     border: none;
     text-decoration: none;
@@ -576,8 +578,8 @@ Header height and font sizes, and footer icons become smaller. Iframes are now i
 
 /*----------------------------- Mobile devices */
 
-/*--- Paragraph text is full width of the screen. Most features are smaller including subtitles and spacing.
-Videos are larger, taking up more width --*/
+/*--- Paragraph text is full width of the screen. Most features are smaller
+ including subtitles and spacing. Videos are larger, taking up more width --*/
 @media (max-width : 576px) {
     
 /*-------------------------  Header */

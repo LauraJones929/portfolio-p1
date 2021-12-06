@@ -271,3 +271,5 @@ Choose to fork the repository by making a copy. You can then make changes to the
 
   Following a session with my Code Institute mentor, I have noted that for future projects I will pay extra attention to how I am writing up CSS code, so that I don't end up with repetitive, unnecessary lines of code.
   In the meantime I am going to research different methods and ways of creating effective code that does not use a large amount of lines within the CSS file.
+
+  *After writing my Personal Development section I decided to go back into my CSS file and attempt to slim down on the amount of code being used. I was able to remove approx. 200 lines of code by testing with Chrome Dev Tools and removing any unnecessary or repetitive code.*

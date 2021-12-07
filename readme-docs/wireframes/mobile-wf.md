@@ -7,7 +7,7 @@
 ![About wireframe](/readme-docs/mobile-wf/about.png)
 
 ## Music
-![Music wireframe](readme-docs/wireframes/mobile-wf/music.png)
+![Music wireframe](/readme-docs/mobile-wf/music.png)
 
 ## Event Services
 ![Events wireframe](/readme-docs/mobile-wf/eventservices.png)
